@@ -23,7 +23,7 @@ title: Kenan Bölükbaşı - Blog
 description: >- # this means to ignore newlines until "baseurl:"
   A blog about programming and graphics.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "blog.kenanb.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "blog.kenanb.com" # the base hostname & protocol for your site.
 twitter_username: kenanbolukbasi
 github_username:  kenanb
 
@@ -31,6 +31,12 @@ github_username:  kenanb
 theme: minima
 plugins:
   - jekyll-feed
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
