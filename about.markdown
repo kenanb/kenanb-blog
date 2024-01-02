@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a Software Engineer, currently working at Unity - Weta Digital.
+I am a Software Engineer. Previously @ Unity - Weta Digital.
 
 Opinions expressed are solely my own and do not express the views or opinions of my employer.
 
