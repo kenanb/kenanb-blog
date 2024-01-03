@@ -10,7 +10,7 @@ I was reading [Programming from the Ground Up][pgu-book] by Jonathan Bartlett so
 
 It is based on x86, Linux, with GNU toolchain.
 
-The first example is a program that just exists with a specific status code, and it looks like this:
+The first example is a program that just exits with a specific status code, and it looks like this:
 
 ```
         .section .data
@@ -23,7 +23,7 @@ _start:
         int $0x80
 ```
 
-"exiting" involves making a system call. So the instructions (following `_start`) are about setting up the inputs to the call, and executing it.
+"Exiting" involves making a system call. So the instructions (following `_start`) are about setting up the inputs to the call, and executing it.
 
 Let's look at the instructions line-by-line:
 
