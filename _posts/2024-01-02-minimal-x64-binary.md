@@ -6,6 +6,8 @@ categories: code assembly
 published: true
 ---
 
+We will compile -and link- a few lines of assembly, using **GAS (GNU Assembler) in Linux**.
+
 I was reading [Programming from the Ground Up][pgu-book] by Jonathan Bartlett some time ago. ( It is good. )
 
 It is based on x86, Linux, with GNU toolchain.
@@ -13,14 +15,14 @@ It is based on x86, Linux, with GNU toolchain.
 The first example is a program that just exits with a specific status code. The file `prog_g32.s` looks like this:
 
 ```
-        .section .data
+    .section .data
 
-        .section .text
-        .global _start
+    .section .text
+    .global _start
 _start:
-        movl $1, %eax
-        movl $0, %ebx
-        int $0x80
+    movl $1, %eax
+    movl $0, %ebx
+    int $0x80
 ```
 
 "Exiting" involves making a system call. So the instructions (following `_start`) are about setting up the inputs to the call, and executing it.
@@ -51,14 +53,14 @@ However, [there is a better way][syscall] in x86_64 world for making system call
 The version I modified to use syscall (named `prog_g64.s`):
 
 ```
-        .section .data
+    .section .data
 
-        .section .text
-        .global _start
+    .section .text
+    .global _start
 _start:
-        mov $60, %rax
-        mov $0, %rdi
-        syscall
+    mov $60, %rax
+    mov $0, %rdi
+    syscall
 ```
 
 As you can see, every line is different. Here is the explanation:
@@ -97,7 +99,7 @@ prog_g32    : $(patsubst %,_%,$(OBJ)_g32.o) ; @echo "RULE> $@ : $^" ; $(LD) $^ -
 prog_g64    : $(patsubst %,_%,$(OBJ)_g64.o) ; @echo "RULE> $@ : $^" ; $(LD) $^ -o $@ -m elf_x86_64 -pie -static -no-dynamic-linker
 ```
 
-Below will make the i386 binary:
+Below will make the x86 (i386) binary:
 ```
 make prog_g32
 ```
