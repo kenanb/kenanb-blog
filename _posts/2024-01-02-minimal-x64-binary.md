@@ -10,7 +10,7 @@ I was reading [Programming from the Ground Up][pgu-book] by Jonathan Bartlett so
 
 It is based on x86, Linux, with GNU toolchain.
 
-The first example is a program that just exits with a specific status code, and it looks like this:
+The first example is a program that just exits with a specific status code. The file `prog_g32.s` looks like this:
 
 ```
         .section .data
@@ -48,7 +48,7 @@ However, [there is a better way][syscall] in x86_64 world for making system call
 
 (Other [fast entry instructions][sysenter] exist for x86 and x86_64, but I will omit them.)
 
-Let's modify to get that version:
+The version I modified to use syscall (named `prog_g64.s`):
 
 ```
         .section .data
@@ -80,7 +80,7 @@ syscall
 
 (And nowadays there is an [even more optimized way][vdso] to make system calls. I might talk about it in a later post.)
 
-Here is the makefile to build both versions:
+Here is the makefile that I use to build both versions:
 ``` makefile
 # Shell replacement to print the rule being run.
 OLD_SHELL := $(SHELL)
