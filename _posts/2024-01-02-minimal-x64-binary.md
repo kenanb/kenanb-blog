@@ -27,7 +27,7 @@ _start:
 
 Let's look at the instructions line-by-line:
 
-`%eax` : Holds the system call number for x86.
+`%eax` : Holds the [system call number][x86-call-table] for x86.
 ``` asm
 movl $1, %eax  # System call number for sys_exit: 1
 ```
@@ -63,7 +63,7 @@ _start:
 
 As you can see, every line is different. Here is the explanation:
 
-`%rax` : Holds the system call number for syscall in x86_64.
+`%rax` : Holds the [system call number][x64-call-table] for syscall in x86_64.
 ```
 mov $60, %rax # System call number for sys_exit in x86_64 is different: 60
 ```
