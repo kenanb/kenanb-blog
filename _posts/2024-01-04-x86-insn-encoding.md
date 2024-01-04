@@ -21,7 +21,7 @@ Now, let's look at the result of assembling these instructions. [^1]
 We can `objdump` the 32 bit object file, or the executable file. Both will contain the same pieces of machine code, just in different offsets.
 
 ``` shell
- objdump -D --disassembler-options=intel _prog_g32.o
+objdump -D --disassembler-options=intel _prog_g32.o
 ```
 
 The relevant part of the output:

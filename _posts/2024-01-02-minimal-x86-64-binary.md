@@ -25,9 +25,17 @@ _start:
     int $0x80
 ```
 
+Here is an overview of the code: [^1]
+- We defined the label `_start` under the `.text` section.
+- We made it visible to the linker by marking it `.global`.
+- We authored the actual CPU instructions.
+
+The label `_start` is the default executable entry point name `ld` will look for during link. [^2]
+
+
 "Exiting" involves making a system call. So the instructions (following `_start`) are about setting up the inputs to the call, and executing it.
 
-Let's look at the instructions line-by-line: [^1]
+Let's look at the instructions line-by-line:
 
 `%eax` : Holds the [system call number][x86-call-table] for x86.
 ``` asm
@@ -112,6 +120,7 @@ make prog_g64
 After running the program, you can `echo $?` to print the status number returned from the previous command. Both should return "0".
 
 [^1]: I am not very experienced in assembly. If you find errors, please report in the blog's [Issues page][report].
+[^2]: The name of the entry point `ld` looks for can be modified.
 [report]: https://github.com/kenanb/kenanb-blog/issues
 [pgu-book]: https://savannah.nongnu.org/projects/pgubook/
 [x86-call-table]: https://chromium.googlesource.com/chromiumos/docs/+/HEAD/constants/syscalls.md#x86-32_bit
