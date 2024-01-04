@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Assembly: Compiling a Minimal x64 Binary"
+title:  "Assembly: Compiling a Minimal x86-64 Binary"
 date:   2024-01-02 21:00:00 +1300
 categories: code assembly
 published: true
@@ -44,11 +44,11 @@ Interrupt to notify kernel to make the system call.
 int $0x80      # Deprecated ( and probably linux specific ).
 ```
 
-Now, this seems to still work when we build an x86_64 executable.
+Now, this seems to still work when we build an x86-64 executable.
 
-However, [there is a better way][syscall] in x86_64 world for making system calls: `syscall` instruction.
+However, [there is a better way][syscall] in x86-64 world for making system calls: `syscall` instruction.
 
-(Other [fast entry instructions][sysenter] exist for x86 and x86_64, but I will omit them.)
+(Other [fast entry instructions][sysenter] exist for x86 and x86-64, but I will omit them.)
 
 The version I modified to use syscall (named `prog_g64.s`):
 
@@ -65,17 +65,17 @@ _start:
 
 As you can see, every line is different. Here is the explanation:
 
-`%rax` : Holds the [system call number][x64-call-table] for syscall in x86_64.
+`%rax` : Holds the [system call number][x64-call-table] for syscall in x86-64.
 ```
-mov $60, %rax # System call number for sys_exit in x86_64 is different: 60
+mov $60, %rax # System call number for sys_exit in x86-64 is different: 60
 ```
 
-`%rdi` : Holds the return status ( first syscall param for x86_64 calling conventions ).
+`%rdi` : Holds the return status ( first syscall param for x86-64 calling conventions ).
 ```
 mov $0, %rdi  # Exit status number: 0
 ```
 
-Portable x86_64 insn for fast system call:
+Portable x86-64 insn for fast system call:
 ```
 syscall
 ```
@@ -104,7 +104,7 @@ Below will make the x86 (i386) binary:
 make prog_g32
 ```
 
-And to make the x86_64 binary:
+And to make the x86-64 binary:
 ```
 make prog_g64
 ```
