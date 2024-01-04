@@ -205,13 +205,13 @@ printf "0o%o\n" 0xB8 0xB9 0xBA 0xBB 0xBC 0xBD 0xBE 0xBF
 0o277
 ```
 
-So, octal `27r` (where `r` is the "register code") is the opcode.
+So,the opcode is basically octal `27r`, where `r` is the "register code".
 
 ## Conclusion
 
 As we can see, it is not easy, but there is no magic.
 
-I tried to provide links to some common resources, and describe when they are relevant. But the ultimate references are for this topic are Intel's [Software Developer's Manual][intel-sdm] and AMD's [AMD64 Architecture Programmer's Manual][amd-apm] volumes.
+I provided links to some common resources, and tried to describe in which context they are relevant. But the ultimate references of this topic are Intel's [Software Developer's Manual][intel-sdm] and AMD's [AMD64 Architecture Programmer's Manual][amd-apm] volumes.
 
 In the next post, we will check out the x86-64 binary, but that one will be shorter.
 
@@ -219,8 +219,8 @@ Thanks for reading!
 
 [^1]: I am not very experienced in assembly. If you find errors, please report in the blog's [Issues page][report].
 [^2]: In fact, a lot of the encoding complexity comes from 64-bit instruction set. When looking at an 32-bit executable, [this document on x86 encoding][encoding-real-x86-insn] is an easier reference.
-[^3]: The reference has a [geek mode][x86-insn-ref-geek-b8], which is both a bit more cryptic, and but precise:
-[^4]: Default operand size is 32 bits for x86. And when code targeting x86 is run in x86-64, it runs in ["compatibility mode", which uses x86 encoding][wikipedia-x86-64-opmodes]. So the operand size is still 32 bits. In fact, even in 64-bit mode, default operand size is 32 bits, while the address size is 64 bits.
+[^3]: The reference has a [geek mode][x86-insn-ref-geek-b8], which is a bit more cryptic, but also more precise.
+[^4]: Default operand size is 32 bits for x86. And when code targeting x86 is run in x86-64, it runs in ["compatibility mode", which uses x86 encoding][wikipedia-x86-64-opmodes]. So the operand size is, again, 32 bits. In fact, even in 64-bit mode, default operand size is still 32 bits, while the address size is 64 bits.
 
 [report]: https://github.com/kenanb/kenanb-blog/issues
 [encoding-real-x86-insn]: http://www.c-jump.com/CIS77/CPU/x86/lecture.html
