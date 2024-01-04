@@ -12,7 +12,7 @@ In previous post, [we compiled a few lines of assembly][int-asm-1], using GAS (G
 
 GAS, by default, uses the AT&T syntax. There are two major syntax branches for x86: AT&T, and Intel.
 
-Let's see how the same code looks in Intel syntax.
+Let's see how the same code looks in Intel syntax.[^1]
 
 [Here is the Wikipedia entry][wikipedia-syntax] describing the main differences.
 
@@ -57,6 +57,8 @@ _start:
     syscall
 ```
 
+[^1]: I am not very experienced in assembly. If you find errors, please report in the blog's [Issues page][report].
+[report]: https://github.com/kenanb/kenanb-blog/issues
 [int-asm-1]: {% post_url 2024-01-02-minimal-x64-binary %}
 [wikipedia-syntax]: https://en.wikipedia.org/wiki/X86_assembly_language#Syntax
 [so-gas-intel-syntax]: https://stackoverflow.com/a/9347957

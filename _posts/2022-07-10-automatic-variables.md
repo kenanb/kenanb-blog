@@ -10,7 +10,7 @@ Modern build systems are great for real-world projects, but Make is my go-to sol
 
 Make defines many [automatic variables][doc-auto-vars] to be used in [recipes][doc-recipes].
 
-They are easy to forget. So I wrote myself a makefile. It works as an interactive reminder.
+They are easy to forget. So I wrote myself a makefile. It works as an interactive reminder.[^1]
 
 It defines a few example rules, using a custom macro. When I run with "make", it builds 8 targets, but the build recipes do nothing but print information about the rule.
 
@@ -77,6 +77,8 @@ Every makefile I write starts with that snippet. Very useful.
 
 Also, I use `make` with `--debug` option to find out how it matches patterns.
 
+[^1]: If you find errors, please report in the blog's [Issues page][report].
+[report]: https://github.com/kenanb/kenanb-blog/issues
 [gnu-make]: https://www.gnu.org/software/make/
 [doc-auto-vars]: https://www.gnu.org/software/make/manual/make.html#Automatic-Variables
 [doc-recipes]: https://www.gnu.org/software/make/manual/make.html#Recipes

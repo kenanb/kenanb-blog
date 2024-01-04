@@ -27,7 +27,7 @@ _start:
 
 "Exiting" involves making a system call. So the instructions (following `_start`) are about setting up the inputs to the call, and executing it.
 
-Let's look at the instructions line-by-line:
+Let's look at the instructions line-by-line: [^1]
 
 `%eax` : Holds the [system call number][x86-call-table] for x86.
 ``` asm
@@ -111,7 +111,8 @@ make prog_g64
 
 After running the program, you can `echo $?` to print the status number returned from the previous command. Both should return "0".
 
-
+[^1]: I am not very experienced in assembly. If you find errors, please report in the blog's [Issues page][report].
+[report]: https://github.com/kenanb/kenanb-blog/issues
 [pgu-book]: https://savannah.nongnu.org/projects/pgubook/
 [x86-call-table]: https://chromium.googlesource.com/chromiumos/docs/+/HEAD/constants/syscalls.md#x86-32_bit
 [x64-call-table]: https://chromium.googlesource.com/chromiumos/docs/+/HEAD/constants/syscalls.md#x86_64-64_bit
