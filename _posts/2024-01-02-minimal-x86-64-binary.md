@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Assembly: Compiling a Minimal x86-64 Binary"
+title:  "Low-level: Assembling a Minimal x86-64 Binary"
 date:   2024-01-02 21:00:00 +1300
-categories: code assembly
+categories: code low-level
 published: true
 ---
 

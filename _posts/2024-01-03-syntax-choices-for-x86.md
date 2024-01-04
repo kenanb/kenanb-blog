@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Assembly: Syntax Choices for x86 Family"
+title:  "Low-level: Syntax Choices for x86 Assembly"
 date:   2024-01-03 16:00:00 +1300
-categories: code assembly
+categories: code low-level
 published: true
 ---
 

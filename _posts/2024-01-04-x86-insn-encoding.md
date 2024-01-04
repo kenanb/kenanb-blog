@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Assembly: x86 Instruction Encoding"
+title:  "Low-level: x86 Instruction Encoding"
 date:   2024-01-04 13:00:00 +1300
-categories: code assembly
+categories: code low-level
 published: true
 ---
 
