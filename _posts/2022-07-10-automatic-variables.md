@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Makefile: Automatic Variables in Recipes"
+title:  "Automatic Variables in Make Recipes"
 date:   2022-07-10 21:00:00 +1200
 categories: code makefile
 published: true
 ---
 
-Modern build systems are great for real-world projects, but Make is my go-to solution for small builds on Linux.
+Modern build systems are great for real-world projects, but `make` is my go-to solution for small builds on Linux.
 
 Make defines many [automatic variables][doc-auto-vars] to be used in [recipes][doc-recipes].
 
