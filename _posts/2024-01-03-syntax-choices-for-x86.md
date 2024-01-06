@@ -10,6 +10,10 @@ We will see how Intel syntax can be used instead of AT&T with GAS, and talk abou
 
 In previous post, [we compiled a few lines of assembly][int-asm-1], using GAS (GNU Assembler) in Linux.
 
+[ *Check out all posts in "low-level" series [here][series-low-level].* ]
+
+[series-low-level]: {% link series.md %}#low-level
+
 GAS, by default, uses the AT&T syntax. There are two major syntax branches for x86: AT&T, and Intel.
 
 Let's see how the same code looks in Intel syntax.[^1]

@@ -8,6 +8,10 @@ published: true
 
 We will compile -and link- a few lines of assembly, using **GAS (GNU Assembler) in Linux**.
 
+[ *Check out all posts in "low-level" series [here][series-low-level].* ]
+
+[series-low-level]: {% link series.md %}#low-level
+
 I was reading [Programming from the Ground Up][pgu-book] by Jonathan Bartlett some time ago. ( It is good. )
 
 It is based on x86, Linux, with GNU toolchain.

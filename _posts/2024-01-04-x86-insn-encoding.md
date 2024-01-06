@@ -12,6 +12,10 @@ So far, we:
 - [Compiled a few lines of assembly][int-asm-1], using GAS (GNU Assembler) in Linux.
 - [Switched to Intel syntax][int-asm-2] from AT&T with GAS, and talked about the differences.
 
+[ *Check out all posts in "low-level" series [here][series-low-level].* ]
+
+[series-low-level]: {% link series.md %}#low-level
+
 x86 is a [CISC ISA family][wikipedia-x86-overview] that has seen many extensions since it was first introduced in late 70s. And these extensions were mostly done in a backwards compatible way. **The encoding is neither trivial, nor useful for a programmer.**
 
 We will just walk through this small example, trying to figure out the encoding, and observe some of the complexities. This exercise is more like a geek puzzle, unless you are planning to write a disassembler.
