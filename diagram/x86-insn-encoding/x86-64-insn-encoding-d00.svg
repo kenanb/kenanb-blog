@@ -13,6 +13,17 @@
   <defs
      id="defs1">
     <linearGradient
+       id="linearGradient6">
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1;"
+         offset="0"
+         id="stop6" />
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:0;"
+         offset="1"
+         id="stop7" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient46">
       <stop
          style="stop-color:#000000;stop-opacity:1;"
@@ -85,6 +96,14 @@
        x2="50.270828"
        y2="97.300507"
        gradientTransform="translate(-13.113939,-64.690591)" />
+    <linearGradient
+       xlink:href="#linearGradient6"
+       id="linearGradient7"
+       x1="296.33331"
+       y1="71.645966"
+       x2="296.33331"
+       y2="131.36562"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      id="g8"
@@ -99,6 +118,10 @@
      height="237.06665"
      x="0"
      y="0" />
+  <path
+     style="opacity:0.05;fill:url(#linearGradient7);stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 42.33333,126.99999 H 505.8833 l -114.3,-82.549992 -124.88332,-2e-6 z"
+     id="path6" />
   <g
      id="g40"
      transform="translate(30.047335,107.02394)"
