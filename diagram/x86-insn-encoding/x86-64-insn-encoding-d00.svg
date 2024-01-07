@@ -1124,19 +1124,23 @@
   <text
      xml:space="preserve"
      style="font-size:12.7px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-     x="8.4666662"
-     y="18.436167"
-     id="text20"><tspan
-       id="tspan20"
+     x="10.870209"
+     y="24.257063"
+     id="text14"><tspan
+       id="tspan14"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.264583"
-       x="8.4666662"
-       y="18.436167">Legacy (non-VEX) x86-64</tspan><tspan
+       x="10.870209"
+       y="24.257063">Legacy (non-VEX) x86-64</tspan><tspan
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.264583"
-       x="8.4666662"
-       y="34.313705"
-       id="tspan21">Instruction Encoding</tspan><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#b3b3b3;stroke-width:0.264583"
-       x="8.4666662"
-       y="50.191246"
-       id="tspan22">( diagram draft 0)</tspan></text>
+       x="10.870209"
+       y="40.134605"
+       id="tspan17">Instruction Encoding</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#999999;stroke-width:0.264583"
+       x="10.870209"
+       y="56.012146"
+       id="tspan15">Unofficial Diagram</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#999999;stroke-width:0.264583"
+       x="10.870209"
+       y="71.889687"
+       id="tspan16">( draft 0)</tspan></text>
 </svg>
