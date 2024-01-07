@@ -7,10 +7,28 @@
    viewBox="0 0 541.86666 237.06666"
    version="1.1"
    id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs1">
+    <linearGradient
+       id="linearGradient46">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop46" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop47" />
+    </linearGradient>
+    <rect
+       x="1764.5013"
+       y="-27.167573"
+       width="108.16578"
+       height="226.02768"
+       id="rect44" />
     <marker
        style="overflow:visible"
        id="ArrowTriangleStylized"
@@ -27,791 +45,85 @@
          d="m 6,0 c -3,1 -7,3 -9,5 0,0 0,-4 2,-5 -2,-1 -2,-5 -2,-5 2,2 6,4 9,5 z"
          id="path4" />
     </marker>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask56">
+      <rect
+         style="opacity:1;fill:url(#linearGradient56);stroke-width:1.05833;stroke-dasharray:none;stroke-dashoffset:0;paint-order:normal"
+         id="rect56"
+         width="35.983334"
+         height="25.53228"
+         x="14.816602"
+         y="84.53437" />
+    </mask>
+    <linearGradient
+       xlink:href="#linearGradient46"
+       id="linearGradient56"
+       gradientUnits="userSpaceOnUse"
+       x1="23.283268"
+       y1="97.300507"
+       x2="50.270828"
+       y2="97.300507"
+       gradientTransform="translate(-3.8096509e-8)" />
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask57">
+      <rect
+         style="opacity:1;fill:url(#linearGradient57);stroke-width:1.05833;stroke-dasharray:none;stroke-dashoffset:0;paint-order:normal"
+         id="rect57"
+         width="35.983334"
+         height="25.53228"
+         x="1.7026623"
+         y="19.843777" />
+    </mask>
+    <linearGradient
+       xlink:href="#linearGradient46"
+       id="linearGradient57"
+       gradientUnits="userSpaceOnUse"
+       x1="23.283268"
+       y1="97.300507"
+       x2="50.270828"
+       y2="97.300507"
+       gradientTransform="translate(-13.113939,-64.690591)" />
   </defs>
   <g
-     id="layer1">
+     id="g8"
+     transform="rotate(180,148.24151,39.075939)" />
+  <g
+     id="g59"
+     transform="translate(177.79999,46.566687)" />
+  <rect
+     style="font-variation-settings:normal;fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+     id="rect84"
+     width="541.86664"
+     height="237.06665"
+     x="0"
+     y="0" />
+  <g
+     id="g40"
+     transform="translate(30.047335,107.02394)"
+     style="opacity:0.5;fill:#1a1a1a"
+     mask="url(#mask57)">
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke-width:0.264583"
+       x="37.103977"
+       y="50.800018"
+       id="text39"><tspan
+         id="tspan39"
+         style="fill:#1a1a1a;stroke-width:0.264583"
+         x="37.103977"
+         y="50.800018">REX</tspan></text>
+  </g>
+  <g
+     id="g61"
+     transform="translate(-25.399998)">
     <g
-       id="g8"
-       transform="rotate(180,148.24151,39.075939)" />
-    <g
-       id="g59"
-       transform="translate(177.79999,46.566687)" />
-    <g
-       id="g85"
-       transform="translate(16.933386,42.333347)">
-      <rect
-         style="font-variation-settings:normal;opacity:1;fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect84"
-         width="541.86664"
-         height="237.06665"
-         x="-16.933386"
-         y="-42.333347" />
-      <rect
-         style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect13"
-         width="16.933332"
-         height="16.933332"
-         x="107.95"
-         y="-162.98332"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect14"
-         width="16.933332"
-         height="16.933332"
-         x="127.00001"
-         y="-162.98332"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#afdde9;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect15"
-         width="16.933332"
-         height="16.933332"
-         x="31.749996"
-         y="-162.98332"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#afdde9;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect16"
-         width="16.933332"
-         height="16.933332"
-         x="50.800014"
-         y="-162.98332"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#afdde9;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect17"
-         width="16.933332"
-         height="16.933332"
-         x="69.849991"
-         y="-162.98332"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#e5ff80;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect18"
-         width="16.933332"
-         height="16.933332"
-         x="-27.516621"
-         y="-162.98332"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#e5ff80;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect19"
-         width="16.933332"
-         height="16.933332"
-         x="-8.4666662"
-         y="-162.98332"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#e5ff80;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect20"
-         width="16.933332"
-         height="16.933332"
-         x="10.583334"
-         y="-162.98332"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#f6d5ff;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect21"
-         width="16.933332"
-         height="16.933332"
-         x="31.749996"
-         y="-182.03333"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#f6d5ff;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect22"
-         width="16.933332"
-         height="16.933332"
-         x="50.800014"
-         y="-182.03333"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#f6d5ff;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect23"
-         width="16.933332"
-         height="16.933332"
-         x="69.849991"
-         y="-182.03333"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#deaa87;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect24"
-         width="16.933332"
-         height="16.933332"
-         x="-27.516621"
-         y="-182.03333"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#deaa87;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect25"
-         width="16.933332"
-         height="16.933332"
-         x="-8.4666662"
-         y="-182.03333"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#deaa87;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect26"
-         width="16.933332"
-         height="16.933332"
-         x="10.583334"
-         y="-182.03333"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect27"
-         width="16.933332"
-         height="16.933332"
-         x="107.95"
-         y="-182.03333"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect28"
-         width="16.933332"
-         height="16.933332"
-         x="127.00001"
-         y="-182.03333"
-         ry="2.1220436"
-         transform="rotate(90)" />
-      <g
-         id="g35"
-         style="opacity:0.75"
-         transform="translate(25.399992,46.566687)">
-        <rect
-           style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-           id="rect5"
-           width="16.933332"
-           height="16.933332"
-           x="25.4"
-           y="42.333332" />
-        <rect
-           style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-           id="rect6"
-           width="16.933332"
-           height="16.933332"
-           x="44.449997"
-           y="42.333332" />
-        <rect
-           style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-           id="rect7"
-           width="16.933332"
-           height="16.933332"
-           x="63.499996"
-           y="42.333332" />
-        <rect
-           style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-           id="rect8"
-           width="16.933332"
-           height="16.933332"
-           x="82.549995"
-           y="42.333332" />
-        <rect
-           style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-           id="rect9"
-           width="16.933332"
-           height="16.933332"
-           x="101.59999"
-           y="42.333332" />
-        <rect
-           style="opacity:1;fill:#afdde9;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-           id="rect10"
-           width="16.933332"
-           height="16.933332"
-           x="120.64999"
-           y="42.333332" />
-        <rect
-           style="opacity:1;fill:#f6d5ff;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-           id="rect11"
-           width="16.933332"
-           height="16.933332"
-           x="139.69998"
-           y="42.333332" />
-        <rect
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-           id="rect35"
-           width="16.933332"
-           height="16.933332"
-           x="158.75"
-           y="42.333332" />
-        <path
-           id="rect33"
-           style="opacity:1;fill:#e5ff80;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11666, 1.05833;stroke-dashoffset:0;paint-order:markers fill stroke"
-           d="m 158.74998,42.333332 h 16.93336 l -16.93336,16.933333 z" />
-        <path
-           id="rect34"
-           style="opacity:1;fill:#deaa87;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11666, 1.05833;stroke-dashoffset:0;paint-order:markers fill stroke"
-           d="M 175.68334,42.333332 V 59.266665 H 158.74998 Z" />
-      </g>
-      <g
-         id="g32"
-         transform="translate(25.399992,46.566687)">
-        <text
-           xml:space="preserve"
-           style="font-size:14.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-           x="30.33889"
-           y="55.174438"
-           id="text28"><tspan
-             id="tspan28"
-             style="font-size:14.1111px;stroke-width:0.264583"
-             x="30.33889"
-             y="55.174438">0</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:14.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-           x="68.438889"
-           y="55.174438"
-           id="text29"><tspan
-             id="tspan29"
-             style="font-size:14.1111px;stroke-width:0.264583"
-             x="68.438889"
-             y="55.174438">0</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:14.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-           x="87.488884"
-           y="55.174438"
-           id="text30"><tspan
-             id="tspan30"
-             style="font-size:14.1111px;stroke-width:0.264583"
-             x="87.488884"
-             y="55.174438">0</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:14.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-           x="49.388889"
-           y="55.174438"
-           id="text31"><tspan
-             id="tspan31"
-             style="font-size:14.1111px;stroke-width:0.264583"
-             x="49.388889"
-             y="55.174438">1</tspan></text>
-      </g>
-      <g
-         id="g40"
-         transform="translate(13.113939,64.69059)"
-         style="opacity:0.5;fill:#1a1a1a">
-        <text
-           xml:space="preserve"
-           style="font-size:10.5833px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke-width:0.264583"
-           x="37.103977"
-           y="50.800018"
-           id="text39"><tspan
-             id="tspan39"
-             style="fill:#1a1a1a;stroke-width:0.264583"
-             x="37.103977"
-             y="50.800018">REX</tspan></text>
-      </g>
-      <g
-         id="g41"
-         transform="translate(116.41666,-71.966664)"
-         style="opacity:0.5;fill:#1a1a1a">
-        <text
-           xml:space="preserve"
-           style="font-size:10.5833px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke-width:0.264583"
-           x="-235.47957"
-           y="60.43082"
-           id="text40"
-           transform="rotate(-90)"><tspan
-             id="tspan40"
-             style="fill:#1a1a1a;stroke-width:0.264583"
-             x="-235.47957"
-             y="60.43082">SIB</tspan></text>
-      </g>
-      <g
-         id="g42"
-         transform="rotate(-90,139.32806,37.563261)">
-        <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m 34.016369,42.168546 2.116667,-2.116667 h 29.633331 l 2.116667,2.116667"
-           id="path41" />
-        <text
-           xml:space="preserve"
-           style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-           x="36.988129"
-           y="37.935211"
-           id="text41"><tspan
-             id="tspan41"
-             style="font-size:6.35px;stroke-width:0.264583"
-             x="36.988129"
-             y="37.935211">MODRM.MOD</tspan></text>
-      </g>
-      <g
-         id="g43"
-         transform="rotate(-90,110.75306,8.9882872)">
-        <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m 34.016371,42.168546 2.116667,-2.116667 48.683329,2e-6 2.116667,2.116667"
-           id="path42" />
-        <text
-           xml:space="preserve"
-           style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-           x="43.179939"
-           y="37.935211"
-           id="text42"><tspan
-             id="tspan42"
-             style="font-size:6.35px;stroke-width:0.264583"
-             x="43.179939"
-             y="37.935211">MODRM.REG</tspan></text>
-      </g>
-      <g
-         id="g44"
-         transform="rotate(-90,81.119742,-20.645037)">
-        <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m 34.016373,42.168546 2.116667,-2.116667 48.683329,2e-6 2.116667,2.116667"
-           id="path43" />
-        <text
-           xml:space="preserve"
-           style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-           x="46.187206"
-           y="37.935211"
-           id="text43"><tspan
-             id="tspan43"
-             style="font-size:6.35px;stroke-width:0.264583"
-             x="46.187206"
-             y="37.935211">MODRM.RM</tspan></text>
-      </g>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 184.15001,142.87496 2.11667,-2.11666 v -29.63333 l -2.11667,-2.11667"
-         id="path50" />
-      <text
-         xml:space="preserve"
-         style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-         x="-140.38792"
-         y="192.32033"
-         id="text50"
-         transform="rotate(-90)"><tspan
-           id="tspan50"
-           style="font-size:6.35px;stroke-width:0.264583"
-           x="-140.38792"
-           y="192.32033">SIB.SCALE</tspan></text>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 184.14999,85.724981 2.11667,-2.11667 v -48.68332 l -2.11667,-2.11667"
-         id="path51" />
-      <text
-         xml:space="preserve"
-         style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-         x="-74.982895"
-         y="192.32033"
-         id="text51"
-         transform="rotate(-90)"><tspan
-           id="tspan51"
-           style="font-size:6.35px;stroke-width:0.264583"
-           x="-74.982895"
-           y="192.32033">SIB.INDEX</tspan></text>
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 184.14999,26.458329 2.11667,-2.11667 v -48.68333 l -2.11667,-2.11667"
-         id="path52" />
-      <text
-         xml:space="preserve"
-         style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-         x="-10.630972"
-         y="192.32034"
-         id="text52"
-         transform="rotate(-90)"><tspan
-           id="tspan52"
-           style="font-size:6.35px;stroke-width:0.264583"
-           x="-10.630972"
-           y="192.32034">SIB.BASE</tspan></text>
-      <g
-         id="g1"
-         transform="translate(96.911575,-71.966664)"
-         style="fill:#999999">
-        <text
-           xml:space="preserve"
-           style="font-size:10.5833px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;opacity:0.5;fill:#1a1a1a;stroke-width:0.264583"
-           x="-251.54456"
-           y="60.43082"
-           id="text1"
-           transform="rotate(-90)"><tspan
-             id="tspan1"
-             style="fill:#1a1a1a;stroke-width:0.264583"
-             x="-251.54456"
-             y="60.43082">ModR/M</tspan></text>
-      </g>
-      <g
-         id="g2"
-         transform="translate(17.841957,44.614783)">
-        <path
-           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m 34.016374,42.168546 2.116667,-2.116667 h 67.733329 l 2.11667,2.116667"
-           id="path1" />
-        <text
-           xml:space="preserve"
-           style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-           x="36.300255"
-           y="37.935211"
-           id="text2"><tspan
-             id="tspan2"
-             style="font-size:6.35px;stroke-width:0.264583"
-             x="36.300255"
-             y="37.935211">REX Fixed Bit Pattern</tspan></text>
-      </g>
-      <path
-         style="opacity:0.5;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.529167, 0.529167;stroke-dashoffset:0;stroke-opacity:1"
-         d="m 76.199996,118.53333 h 42.333324 l 12.7,-6.35 v -2.11667"
-         id="path2" />
-      <g
-         id="g4"
-         transform="translate(49.591956,97.531447)"
-         style="opacity:0.5;stroke-width:0.529167;stroke-dasharray:0.529167, 0.529167;stroke-dashoffset:0">
-        <path
-           style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.529167, 0.529167;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 93.283036,10.418547 -2.11667,2.116667 H 80.609682 l -2.11667,-2.116667"
-           id="path3" />
-      </g>
-      <text
-         xml:space="preserve"
-         style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-         x="32.397415"
-         y="180.07373"
-         id="text4"
-         transform="rotate(-45)"><tspan
-           id="tspan4"
-           style="font-size:6.35px;stroke-width:0.264583"
-           x="32.397415"
-           y="180.07373">REX.R</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-         x="45.866169"
-         y="193.56152"
-         id="text5"
-         transform="rotate(-45)"><tspan
-           id="tspan5"
-           style="font-size:6.35px;stroke-width:0.264583"
-           x="45.866169"
-           y="193.56152">REX.X</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-         x="59.349361"
-         y="206.98758"
-         id="text6"
-         transform="rotate(-45)"><tspan
-           id="tspan6"
-           style="font-size:6.35px;stroke-width:0.264583"
-           x="59.349361"
-           y="206.98758">REX.B</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-         x="18.946098"
-         y="166.62242"
-         id="text3"
-         transform="rotate(-45)"><tspan
-           id="tspan3"
-           style="font-size:6.35px;stroke-width:0.264583"
-           x="18.946098"
-           y="166.62242">REX.W</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:5.64444px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;opacity:0.5;stroke-width:0.264583"
-         x="-137.39"
-         y="199.33089"
-         id="text7"
-         transform="rotate(-90)"><tspan
-           id="tspan7"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';baseline-shift:baseline;stroke-width:0.264583"
-           x="-137.39"
-           y="199.33089">( 2<tspan
-   style="font-size:4.23333px;baseline-shift:super"
-   id="tspan82">SIB.SCALE</tspan> ) </tspan></text>
-      <g
-         id="g13"
-         transform="matrix(1,0,0,-1,-20.108338,74.083333)"
-         style="opacity:0.5">
-        <path
-           style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.529167, 0.529167;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#ArrowTriangleStylized)"
-           d="M 83.758005,88.735207 V 84.501874 L 79.524672,80.268541 V 44.28521 L 90.108005,33.701877 h 40.216665"
-           id="path11"
-           transform="rotate(180,148.2415,39.075939)" />
-      </g>
-      <text
-         xml:space="preserve"
-         style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;opacity:0.5;fill:#1a1a1a;stroke-width:0.264583"
-         x="97.366661"
-         y="116.58176"
-         id="text7-7"><tspan
-           id="tspan7-8"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke-width:0.264583"
-           x="97.366661"
-           y="116.58176">W ? 64-bit : default</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke-width:0.264583"
-           x="97.366661"
-           y="124.52053"
-           id="tspan9">operand size</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:6.35px;line-height:1;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;opacity:0.5;fill:#1a1a1a;stroke-width:0.264583"
-         x="215.4456"
-         y="35.370342"
-         id="text11"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke-width:0.264583"
-           x="215.4456"
-           y="35.370342"
-           id="tspan63">extends one of the</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke-width:0.264583"
-           x="215.4456"
-           y="41.721611"
-           id="tspan64">register codes</tspan></text>
-      <g
-         id="g38"
-         transform="rotate(90,207.97256,294.09082)"
-         style="opacity:0.5;fill:#1a1a1a">
-        <text
-           xml:space="preserve"
-           style="font-size:10.5833px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke-width:0.264583"
-           x="-249.79008"
-           y="29.345882"
-           id="text38"
-           transform="rotate(-90)"><tspan
-             id="tspan38"
-             style="fill:#1a1a1a;stroke-width:0.264583"
-             x="-249.79008"
-             y="29.345882">OP</tspan></text>
-      </g>
-      <rect
-         style="opacity:0.75;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-         id="rect48"
-         width="16.933332"
-         height="16.933332"
-         x="251.88332"
-         y="88.900017" />
-      <rect
-         style="opacity:0.75;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-         id="rect49"
-         width="16.933332"
-         height="16.933332"
-         x="270.93332"
-         y="88.900017" />
-      <rect
-         style="opacity:0.75;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-         id="rect50"
-         width="16.933332"
-         height="16.933332"
-         x="289.98331"
-         y="88.900017" />
-      <rect
-         style="opacity:0.75;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-         id="rect51"
-         width="16.933332"
-         height="16.933332"
-         x="309.03333"
-         y="88.900017" />
-      <rect
-         style="opacity:0.75;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-         id="rect52"
-         width="16.933332"
-         height="16.933332"
-         x="328.08331"
-         y="88.900017" />
-      <rect
-         style="opacity:0.75;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-         id="rect53"
-         width="16.933332"
-         height="16.933332"
-         x="349.24997"
-         y="88.900017" />
-      <rect
-         style="opacity:0.75;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-         id="rect54"
-         width="16.933332"
-         height="16.933332"
-         x="368.29996"
-         y="88.900017" />
-      <rect
-         style="opacity:0.75;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-         id="rect63"
-         width="16.933332"
-         height="16.933332"
-         x="387.34998"
-         y="88.900017" />
-      <g
-         id="g63"
-         transform="matrix(1,0,0,-1,-15.875005,74.083333)"
-         style="opacity:0.5">
-        <path
-           style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.529167, 0.529167;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#ArrowTriangleStylized)"
-           d="M 83.758005,88.735207 V 84.501874 L 79.524672,80.268541 V 48.518543 H 39.308008 l -105.833329,35.983331 1e-6,25.399996"
-           id="path63"
-           transform="rotate(180,148.2415,39.075939)" />
-      </g>
-      <g
-         id="g75"
-         style="opacity:0.5"
-         transform="translate(0,10.58333)">
-        <rect
-           style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-           id="rect48-1"
-           width="46.56665"
-           height="16.933323"
-           x="203.19998"
-           y="78.316666" />
-        <rect
-           style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-           id="rect64"
-           width="46.56665"
-           height="16.933342"
-           x="203.19998"
-           y="97.366661" />
-        <text
-           xml:space="preserve"
-           style="font-size:14.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-           x="244.20686"
-           y="110.20776"
-           id="text30-7"><tspan
-             id="tspan30-6"
-             style="font-size:14.1111px;text-align:end;text-anchor:end;stroke-width:0.264583"
-             x="244.20686"
-             y="110.20776">0F</tspan></text>
-        <rect
-           style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-           id="rect65"
-           width="46.56665"
-           height="16.933315"
-           x="203.19998"
-           y="116.41666" />
-        <rect
-           style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-           id="rect66"
-           width="46.56665"
-           height="16.933334"
-           x="203.19998"
-           y="135.46663" />
-        <text
-           xml:space="preserve"
-           style="font-size:14.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-           x="244.20686"
-           y="129.25775"
-           id="text70"><tspan
-             id="tspan70"
-             style="font-size:14.1111px;text-align:end;text-anchor:end;stroke-width:0.264583"
-             x="244.20686"
-             y="129.25775">0F 38</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:14.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-           x="244.20686"
-           y="148.30774"
-           id="text72"><tspan
-             id="tspan72"
-             style="font-size:14.1111px;text-align:end;text-anchor:end;stroke-width:0.264583"
-             x="244.20686"
-             y="148.30774">0F 3A</tspan></text>
-      </g>
-      <rect
-         style="opacity:0.5;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect74"
-         width="52.916672"
-         height="16.933329"
-         x="406.39996"
-         y="88.899994" />
-      <g
-         id="g74"
-         transform="rotate(90,314.38317,354.14475)"
-         style="fill:#999999">
-        <text
-           xml:space="preserve"
-           style="font-size:10.5833px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;opacity:0.5;fill:#1a1a1a;stroke-width:0.264583"
-           x="-251.54456"
-           y="60.43082"
-           id="text74"
-           transform="rotate(-90)"><tspan
-             id="tspan74"
-             style="fill:#1a1a1a;stroke-width:0.264583"
-             x="-251.54456"
-             y="60.43082">ModR/M</tspan></text>
-      </g>
-      <rect
-         style="opacity:0.5;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect75"
-         width="52.916672"
-         height="16.933329"
-         x="461.43332"
-         y="88.899994" />
-      <g
-         id="g73"
-         transform="rotate(90,337.59268,377.80934)"
-         style="opacity:0.5;fill:#1a1a1a">
-        <text
-           xml:space="preserve"
-           style="font-size:10.5833px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke-width:0.264583"
-           x="-235.47957"
-           y="60.43082"
-           id="text73"
-           transform="rotate(-90)"><tspan
-             id="tspan73"
-             style="fill:#1a1a1a;stroke-width:0.264583"
-             x="-235.47957"
-             y="60.43082">SIB</tspan></text>
-      </g>
-      <g
-         id="g78"
-         transform="translate(-4.2333176)">
-        <path
-           style="opacity:1;fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-           d="m 407.43166,107.94999 -2.11667,2.11667 h -48.65667 l -2.11667,-2.11667"
-           id="path59" />
-        <text
-           xml:space="preserve"
-           style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-           x="361.84775"
-           y="116.26849"
-           id="text75"><tspan
-             style="font-size:6.35px;stroke-width:0.264583"
-             x="361.84775"
-             y="116.26849"
-             id="tspan77">POSSIBLE REG</tspan></text>
-      </g>
-      <g
-         id="g80"
-         transform="translate(-150.28333,-48.388301)">
-        <path
-           style="opacity:1;fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-           d="m 553.50831,135.17163 -2.11667,-2.11667 -194.73332,-0.0935 -2.11667,2.11667"
-           id="path79" />
-        <text
-           xml:space="preserve"
-           style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-           x="444.53491"
-           y="131.1803"
-           id="text79"><tspan
-             style="font-size:6.35px;stroke-width:0.264583"
-             x="444.53491"
-             y="131.1803"
-             id="tspan79">OPCODE</tspan></text>
-      </g>
-      <rect
-         style="opacity:0.5;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
-         id="rect48-1-4"
-         width="55.033329"
-         height="16.933317"
-         x="-6.3499999"
-         y="88.899994" />
+       id="g60"
+       transform="translate(16.933396,42.333347)">
       <g
          id="g84"
-         transform="translate(-46.716373,44.614783)">
+         transform="translate(177.65023,-61.218546)">
         <path
            style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            d="m 41.424707,42.168546 2.116667,-2.116667 H 92.2247 l 2.11667,2.116667"
@@ -827,57 +139,981 @@
              x="43.960468"
              y="37.935211">Legacy Prefixes</tspan></text>
       </g>
+      <rect
+         style="opacity:0.5;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect48-1-4-9"
+         width="55.033329"
+         height="16.933317"
+         x="402.16663"
+         y="-16.933332" />
+      <g
+         id="g84-5"
+         transform="translate(361.8002,-61.218546)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 41.424707,42.168546 2.116667,-2.116667 H 92.2247 l 2.11667,2.116667"
+           id="path84-0" />
+        <text
+           xml:space="preserve"
+           style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="48.490154"
+           y="37.935211"
+           id="text84-4"><tspan
+             id="tspan84-8"
+             style="font-size:6.35px;stroke-width:0.264583"
+             x="48.490154"
+             y="37.935211">Displacement</tspan></text>
+      </g>
+      <rect
+         style="opacity:0.5;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect1"
+         width="23.283335"
+         height="16.933317"
+         x="275.1666"
+         y="-16.933332" />
+      <g
+         id="g12"
+         transform="translate(234.80023,-61.218546)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 41.424707,42.168546 2.116667,-2.116667 h 16.97241 l 2.11667,2.116667"
+           id="path5" />
+        <text
+           xml:space="preserve"
+           style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="47.16983"
+           y="37.935211"
+           id="text12"><tspan
+             id="tspan12"
+             style="font-size:6.35px;stroke-width:0.264583"
+             x="47.16983"
+             y="37.935211">REX</tspan></text>
+      </g>
+      <rect
+         style="opacity:0.5;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect1-9"
+         width="23.283335"
+         height="16.933317"
+         x="376.7666"
+         y="-16.933332" />
+      <g
+         id="g12-20"
+         transform="translate(336.40023,-61.218548)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 41.424707,42.168546 2.116667,-2.116667 h 16.97241 l 2.11667,2.116667"
+           id="path5-6" />
+        <text
+           xml:space="preserve"
+           style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="47.16983"
+           y="37.935211"
+           id="text12-8"><tspan
+             id="tspan12-9"
+             style="font-size:6.35px;stroke-width:0.264583"
+             x="47.16983"
+             y="37.935211">SIB</tspan></text>
+        <text
+           xml:space="preserve"
+           transform="matrix(0.26458333,0,0,0.26458333,-378.73362,31.585199)"
+           id="text44"
+           style="font-size:40px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect44);display:inline" />
+      </g>
+      <rect
+         style="opacity:0.5;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         id="rect29"
+         width="48.683338"
+         height="16.933317"
+         x="300.56659"
+         y="-16.933332" />
+      <g
+         id="g33"
+         transform="translate(260.20023,-61.218546)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 41.424707,42.168546 2.116667,-2.116667 h 42.412135 l 2.11667,2.116667"
+           id="path29" />
+        <text
+           xml:space="preserve"
+           style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="42.483021"
+           y="37.935211"
+           id="text32"><tspan
+             id="tspan32"
+             style="font-size:6.35px;stroke-width:0.264583"
+             x="42.483021"
+             y="37.935211">OpCode Byte(s)</tspan></text>
+      </g>
+      <rect
+         style="opacity:0.5;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect1-5"
+         width="23.283335"
+         height="16.933317"
+         x="351.36661"
+         y="-16.933332" />
+      <g
+         id="g12-2"
+         transform="translate(311.00025,-61.218547)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 41.424707,42.168546 2.116667,-2.116667 h 16.97241 l 2.11667,2.116667"
+           id="path5-5" />
+        <text
+           xml:space="preserve"
+           style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="42.502579"
+           y="37.935211"
+           id="text12-4"><tspan
+             id="tspan12-7"
+             style="font-size:6.35px;stroke-width:0.264583"
+             x="42.502579"
+             y="37.935211">ModR/M</tspan></text>
+      </g>
+      <rect
+         style="opacity:0.5;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect45"
+         width="55.033329"
+         height="16.933317"
+         x="459.31659"
+         y="-16.933332" />
+      <g
+         id="g45"
+         transform="translate(438.00016,-73.918544)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 22.374708,54.868544 2.116667,-2.116667 h 48.683326 l 2.11667,2.116667"
+           id="path45" />
+        <text
+           xml:space="preserve"
+           style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="33.525433"
+           y="50.635212"
+           id="text45"><tspan
+             id="tspan45"
+             style="font-size:6.35px;stroke-width:0.264583"
+             x="33.525433"
+             y="50.635212">Immediate</tspan></text>
+      </g>
+      <rect
+         style="opacity:0.5;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect59"
+         width="55.033329"
+         height="16.933317"
+         x="218.01659"
+         y="-16.933332" />
+    </g>
+  </g>
+  <g
+     id="g62"
+     transform="translate(-25.399998)">
+    <rect
+       style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect13"
+       width="16.933332"
+       height="16.933332"
+       x="150.28334"
+       y="-179.91672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect14"
+       width="16.933332"
+       height="16.933332"
+       x="169.33336"
+       y="-179.91672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#afdde9;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect15"
+       width="16.933332"
+       height="16.933332"
+       x="74.083344"
+       y="-179.91672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#afdde9;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect16"
+       width="16.933332"
+       height="16.933332"
+       x="93.133362"
+       y="-179.91672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#afdde9;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect17"
+       width="16.933332"
+       height="16.933332"
+       x="112.18334"
+       y="-179.91672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#e5ff80;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect18"
+       width="16.933332"
+       height="16.933332"
+       x="14.816728"
+       y="-179.91672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#e5ff80;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect19"
+       width="16.933332"
+       height="16.933332"
+       x="33.86668"
+       y="-179.91672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#e5ff80;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect20"
+       width="16.933332"
+       height="16.933332"
+       x="52.916683"
+       y="-179.91672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#f6d5ff;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect21"
+       width="16.933332"
+       height="16.933332"
+       x="74.083344"
+       y="-198.96672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#f6d5ff;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect22"
+       width="16.933332"
+       height="16.933332"
+       x="93.133362"
+       y="-198.96672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#f6d5ff;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect23"
+       width="16.933332"
+       height="16.933332"
+       x="112.18334"
+       y="-198.96672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#deaa87;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect24"
+       width="16.933332"
+       height="16.933332"
+       x="14.816728"
+       y="-198.96672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#deaa87;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect25"
+       width="16.933332"
+       height="16.933332"
+       x="33.86668"
+       y="-198.96672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#deaa87;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect26"
+       width="16.933332"
+       height="16.933332"
+       x="52.916683"
+       y="-198.96672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect27"
+       width="16.933332"
+       height="16.933332"
+       x="150.28334"
+       y="-198.96672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect28"
+       width="16.933332"
+       height="16.933332"
+       x="169.33336"
+       y="-198.96672"
+       ry="2.1220436"
+       transform="rotate(90)" />
+    <g
+       id="g35"
+       style="opacity:0.75"
+       transform="translate(42.333388,88.900034)">
+      <rect
+         style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect5"
+         width="16.933332"
+         height="16.933332"
+         x="25.4"
+         y="42.333332" />
+      <rect
+         style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect6"
+         width="16.933332"
+         height="16.933332"
+         x="44.449997"
+         y="42.333332" />
+      <rect
+         style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect7"
+         width="16.933332"
+         height="16.933332"
+         x="63.499996"
+         y="42.333332" />
+      <rect
+         style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect8"
+         width="16.933332"
+         height="16.933332"
+         x="82.549995"
+         y="42.333332" />
+      <rect
+         style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect9"
+         width="16.933332"
+         height="16.933332"
+         x="101.59999"
+         y="42.333332" />
+      <rect
+         style="opacity:1;fill:#afdde9;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect10"
+         width="16.933332"
+         height="16.933332"
+         x="120.64999"
+         y="42.333332" />
+      <rect
+         style="opacity:1;fill:#f6d5ff;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect11"
+         width="16.933332"
+         height="16.933332"
+         x="139.69998"
+         y="42.333332" />
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11667, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect35"
+         width="16.933332"
+         height="16.933332"
+         x="158.75"
+         y="42.333332" />
+      <path
+         id="rect33"
+         style="opacity:1;fill:#e5ff80;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11666, 1.05833;stroke-dashoffset:0;paint-order:markers fill stroke"
+         d="m 158.74998,42.333332 h 16.93336 l -16.93336,16.933333 z" />
+      <path
+         id="rect34"
+         style="opacity:1;fill:#deaa87;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:2.11666, 1.05833;stroke-dashoffset:0;paint-order:markers fill stroke"
+         d="M 175.68334,42.333332 V 59.266665 H 158.74998 Z" />
+    </g>
+    <g
+       id="g32"
+       transform="translate(42.333388,88.900034)">
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="30.33889"
+         y="55.174438"
+         id="text28"><tspan
+           id="tspan28"
+           style="font-size:14.1111px;stroke-width:0.264583"
+           x="30.33889"
+           y="55.174438">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="68.438889"
+         y="55.174438"
+         id="text29"><tspan
+           id="tspan29"
+           style="font-size:14.1111px;stroke-width:0.264583"
+           x="68.438889"
+           y="55.174438">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="87.488884"
+         y="55.174438"
+         id="text30"><tspan
+           id="tspan30"
+           style="font-size:14.1111px;stroke-width:0.264583"
+           x="87.488884"
+           y="55.174438">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="49.388889"
+         y="55.174438"
+         id="text31"><tspan
+           id="tspan31"
+           style="font-size:14.1111px;stroke-width:0.264583"
+           x="49.388889"
+           y="55.174438">1</tspan></text>
+    </g>
+    <g
+       id="g41"
+       transform="translate(133.35006,-29.633317)"
+       style="opacity:0.5;fill:#1a1a1a">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke-width:0.264583"
+         x="-235.47957"
+         y="60.43082"
+         id="text40"
+         transform="rotate(-90)"><tspan
+           id="tspan40"
+           style="fill:#1a1a1a;stroke-width:0.264583"
+           x="-235.47957"
+           y="60.43082">SIB</tspan></text>
+    </g>
+    <g
+       id="g42"
+       transform="rotate(-90,168.96143,50.263237)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 34.016369,42.168546 2.116667,-2.116667 h 29.633331 l 2.116667,2.116667"
+         id="path41" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="36.988129"
+         y="37.935211"
+         id="text41"><tspan
+           id="tspan41"
+           style="font-size:6.35px;stroke-width:0.264583"
+           x="36.988129"
+           y="37.935211">MODRM.MOD</tspan></text>
+    </g>
+    <g
+       id="g43"
+       transform="rotate(-90,140.38643,21.688263)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 34.016371,42.168546 2.116667,-2.116667 48.683329,2e-6 2.116667,2.116667"
+         id="path42" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="43.179939"
+         y="37.935211"
+         id="text42"><tspan
+           id="tspan42"
+           style="font-size:6.35px;stroke-width:0.264583"
+           x="43.179939"
+           y="37.935211">MODRM.REG</tspan></text>
+    </g>
+    <g
+       id="g44"
+       transform="rotate(-90,110.75311,-7.9450615)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 34.016373,42.168546 2.116667,-2.116667 48.683329,2e-6 2.116667,2.116667"
+         id="path43" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="46.187206"
+         y="37.935211"
+         id="text43"><tspan
+           id="tspan43"
+           style="font-size:6.35px;stroke-width:0.264583"
+           x="46.187206"
+           y="37.935211">MODRM.RM</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 201.08341,185.20831 2.11667,-2.11666 v -29.63333 l -2.11667,-2.11667"
+       id="path50" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-182.72127"
+       y="209.25372"
+       id="text50"
+       transform="rotate(-90)"><tspan
+         id="tspan50"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="-182.72127"
+         y="209.25372">SIB.SCALE</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 201.08339,128.05833 2.11667,-2.11667 V 77.258338 l -2.11667,-2.11667"
+       id="path51" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-117.31625"
+       y="209.25372"
+       id="text51"
+       transform="rotate(-90)"><tspan
+         id="tspan51"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="-117.31625"
+         y="209.25372">SIB.INDEX</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 201.08339,68.791676 2.11667,-2.11667 v -48.68333 l -2.11667,-2.11667"
+       id="path52" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="-52.964321"
+       y="209.25374"
+       id="text52"
+       transform="rotate(-90)"><tspan
+         id="tspan52"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="-52.964321"
+         y="209.25374">SIB.BASE</tspan></text>
+    <g
+       id="g1"
+       transform="translate(113.84497,-29.633317)"
+       style="fill:#999999">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;opacity:0.5;fill:#1a1a1a;stroke-width:0.264583"
+         x="-251.54456"
+         y="60.43082"
+         id="text1"
+         transform="rotate(-90)"><tspan
+           id="tspan1"
+           style="fill:#1a1a1a;stroke-width:0.264583"
+           x="-251.54456"
+           y="60.43082">ModR/M</tspan></text>
+    </g>
+    <g
+       id="g2"
+       transform="translate(34.775353,86.94813)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 34.016374,42.168546 2.116667,-2.116667 h 67.733329 l 2.11667,2.116667"
+         id="path1" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="36.300255"
+         y="37.935211"
+         id="text2"><tspan
+           id="tspan2"
+           style="font-size:6.35px;stroke-width:0.264583"
+           x="36.300255"
+           y="37.935211">REX Fixed Bit Pattern</tspan></text>
+    </g>
+    <path
+       style="opacity:0.5;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.529167, 0.529167;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 93.133392,160.86668 h 42.333328 l 12.7,-6.35 v -2.11667"
+       id="path2" />
+    <g
+       id="g4"
+       transform="translate(66.525352,139.86479)"
+       style="opacity:0.5;stroke-width:0.529167;stroke-dasharray:0.529167, 0.529167;stroke-dashoffset:0">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.529167, 0.529167;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 93.283036,10.418547 -2.11667,2.116667 H 80.609682 l -2.11667,-2.116667"
+         id="path3" />
     </g>
     <text
        xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="14.436937"
+       y="221.98164"
+       id="text4"
+       transform="rotate(-45)"><tspan
+         id="tspan4"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="14.436937"
+         y="221.98164">REX.R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="27.905691"
+       y="235.46944"
+       id="text5"
+       transform="rotate(-45)"><tspan
+         id="tspan5"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="27.905691"
+         y="235.46944">REX.X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="41.388885"
+       y="248.89549"
+       id="text6"
+       transform="rotate(-45)"><tspan
+         id="tspan6"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="41.388885"
+         y="248.89549">REX.B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="0.9856208"
+       y="208.53033"
+       id="text3"
+       transform="rotate(-45)"><tspan
+         id="tspan3"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="0.9856208"
+         y="208.53033">REX.W</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;opacity:0.5;stroke-width:0.264583"
+       x="-179.72334"
+       y="216.26428"
+       id="text7"
+       transform="rotate(-90)"><tspan
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';baseline-shift:baseline;stroke-width:0.264583"
+         x="-179.72334"
+         y="216.26428">( 2<tspan
+   style="font-size:4.23333px;baseline-shift:super"
+   id="tspan82">SIB.SCALE</tspan> ) </tspan></text>
+    <g
+       id="g13"
+       transform="matrix(1,0,0,-1,-3.174942,116.41668)"
+       style="opacity:0.5">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.529167, 0.529167;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#ArrowTriangleStylized)"
+         d="M 83.758005,88.735207 V 84.501874 L 79.524672,80.268541 V 44.28521 L 90.108005,33.701877 h 40.216665"
+         id="path11"
+         transform="rotate(180,148.2415,39.075939)" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;opacity:0.5;fill:#1a1a1a;stroke-width:0.264583"
+       x="114.30006"
+       y="158.9151"
+       id="text7-7"><tspan
+         id="tspan7-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke-width:0.264583"
+         x="114.30006"
+         y="158.9151">W ? 64-bit : default</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke-width:0.264583"
+         x="114.30006"
+         y="166.85388"
+         id="tspan9">operand size</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;opacity:0.5;fill:#1a1a1a;stroke-width:0.264583"
+       x="232.379"
+       y="77.70369"
+       id="text11"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke-width:0.264583"
+         x="232.379"
+         y="77.70369"
+         id="tspan63">extends one of the</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;line-height:1;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke-width:0.264583"
+         x="232.379"
+         y="84.054955"
+         id="tspan64">register codes</tspan></text>
+    <g
+       id="g38"
+       transform="rotate(90,195.27258,323.72419)"
+       style="opacity:0.5;fill:#1a1a1a">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke-width:0.264583"
+         x="-249.79008"
+         y="29.345882"
+         id="text38"
+         transform="rotate(-90)"><tspan
+           id="tspan38"
+           style="fill:#1a1a1a;stroke-width:0.264583"
+           x="-249.79008"
+           y="29.345882">OP</tspan></text>
+    </g>
+    <rect
+       style="opacity:0.75;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect48"
+       width="16.933332"
+       height="16.933332"
+       x="268.81671"
+       y="131.23337" />
+    <rect
+       style="opacity:0.75;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect49"
+       width="16.933332"
+       height="16.933332"
+       x="287.86673"
+       y="131.23337" />
+    <rect
+       style="opacity:0.75;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect50"
+       width="16.933332"
+       height="16.933332"
+       x="306.91672"
+       y="131.23337" />
+    <rect
+       style="opacity:0.75;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect51"
+       width="16.933332"
+       height="16.933332"
+       x="325.96674"
+       y="131.23337" />
+    <rect
+       style="opacity:0.75;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect52"
+       width="16.933332"
+       height="16.933332"
+       x="345.01672"
+       y="131.23337" />
+    <rect
+       style="opacity:0.75;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect53"
+       width="16.933332"
+       height="16.933332"
+       x="366.18338"
+       y="131.23337" />
+    <rect
+       style="opacity:0.75;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect54"
+       width="16.933332"
+       height="16.933332"
+       x="385.23337"
+       y="131.23337" />
+    <rect
+       style="opacity:0.75;fill:#ffd42a;fill-opacity:1;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect63"
+       width="16.933332"
+       height="16.933332"
+       x="404.28339"
+       y="131.23337" />
+    <g
+       id="g63"
+       transform="matrix(1,0,0,-1,1.058391,116.41668)"
+       style="opacity:0.5">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:0.529167, 0.529167;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#ArrowTriangleStylized)"
+         d="M 83.758005,88.735207 V 84.501874 L 79.524672,80.268541 V 48.518543 H 39.308008 l -105.833329,35.983331 1e-6,25.399996"
+         id="path63"
+         transform="rotate(180,148.2415,39.075939)" />
+    </g>
+    <g
+       id="g75"
+       style="opacity:0.5"
+       transform="translate(16.933396,52.916677)">
+      <rect
+         style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect48-1"
+         width="46.56665"
+         height="16.933323"
+         x="203.19998"
+         y="78.316666" />
+      <rect
+         style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect64"
+         width="46.56665"
+         height="16.933342"
+         x="203.19998"
+         y="97.366661" />
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="244.20686"
+         y="110.20776"
+         id="text30-7"><tspan
+           id="tspan30-6"
+           style="font-size:14.1111px;text-align:end;text-anchor:end;stroke-width:0.264583"
+           x="244.20686"
+           y="110.20776">0F</tspan></text>
+      <rect
+         style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect65"
+         width="46.56665"
+         height="16.933315"
+         x="203.19998"
+         y="116.41666" />
+      <rect
+         style="fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+         id="rect66"
+         width="46.56665"
+         height="16.933334"
+         x="203.19998"
+         y="135.46663" />
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="244.20686"
+         y="129.25775"
+         id="text70"><tspan
+           id="tspan70"
+           style="font-size:14.1111px;text-align:end;text-anchor:end;stroke-width:0.264583"
+           x="244.20686"
+           y="129.25775">0F 38</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="244.20686"
+         y="148.30774"
+         id="text72"><tspan
+           id="tspan72"
+           style="font-size:14.1111px;text-align:end;text-anchor:end;stroke-width:0.264583"
+           x="244.20686"
+           y="148.30774">0F 3A</tspan></text>
+    </g>
+    <rect
+       style="opacity:0.5;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect74"
+       width="52.916672"
+       height="16.933329"
+       x="423.33337"
+       y="131.23334" />
+    <g
+       id="g74"
+       transform="rotate(90,301.68319,383.77812)"
+       style="fill:#999999">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;opacity:0.5;fill:#1a1a1a;stroke-width:0.264583"
+         x="-251.54456"
+         y="60.43082"
+         id="text74"
+         transform="rotate(-90)"><tspan
+           id="tspan74"
+           style="fill:#1a1a1a;stroke-width:0.264583"
+           x="-251.54456"
+           y="60.43082">ModR/M</tspan></text>
+    </g>
+    <rect
+       style="opacity:0.5;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect75"
+       width="52.916672"
+       height="16.933329"
+       x="478.36673"
+       y="131.23334" />
+    <g
+       id="g73"
+       transform="rotate(90,324.8927,407.44271)"
+       style="opacity:0.5;fill:#1a1a1a">
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;stroke-width:0.264583"
+         x="-235.47957"
+         y="60.43082"
+         id="text73"
+         transform="rotate(-90)"><tspan
+           id="tspan73"
+           style="fill:#1a1a1a;stroke-width:0.264583"
+           x="-235.47957"
+           y="60.43082">SIB</tspan></text>
+    </g>
+    <g
+       id="g78"
+       transform="translate(12.700078,42.333347)">
+      <path
+         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m 407.43166,107.94999 -2.11667,2.11667 h -48.65667 l -2.11667,-2.11667"
+         id="path59" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="361.84775"
+         y="116.26849"
+         id="text75"><tspan
+           style="font-size:6.35px;stroke-width:0.264583"
+           x="361.84775"
+           y="116.26849"
+           id="tspan77">POSSIBLE REG</tspan></text>
+    </g>
+    <g
+       id="g80"
+       transform="translate(-133.34993,-6.054954)">
+      <path
+         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m 553.50831,135.17163 -2.11667,-2.11667 -194.73332,-0.0935 -2.11667,2.11667"
+         id="path79" />
+      <text
+         xml:space="preserve"
+         style="font-size:6.35px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="444.53491"
+         y="131.1803"
+         id="text79"><tspan
+           style="font-size:6.35px;stroke-width:0.264583"
+           x="444.53491"
+           y="131.1803"
+           id="tspan79">OPCODE</tspan></text>
+    </g>
+    <rect
+       style="opacity:0.5;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect48-1-4"
+       width="31.761047"
+       height="16.933319"
+       x="16.922222"
+       y="88.899994"
+       mask="url(#mask56)"
+       transform="translate(16.933396,42.333347)" />
+    <rect
+       style="opacity:0.5;fill:#cccccc;stroke:#000000;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:bevel;stroke-dasharray:1.05833, 1.05833;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect58"
+       width="31.761047"
+       height="16.933319"
+       x="16.922222"
+       y="88.899994"
+       mask="url(#mask56)"
+       transform="matrix(-1,0,0,1,582.08324,42.333347)" />
+    <text
+       xml:space="preserve"
        style="font-size:10.5833px;line-height:0;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke-width:0.264583"
-       x="597.90533"
-       y="118.20251"
+       x="622.2998"
+       y="118.53333"
        id="text85"><tspan
          id="tspan10"
-         x="532.28882"
-         y="118.20251"
+         x="556.68329"
+         y="118.53333"
          style="line-height:1.25;text-align:end;text-anchor:end"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:end;text-anchor:end;fill:#b3b3b3;fill-opacity:1;stroke-width:0.264583"
-           x="532.28882"
-           y="118.20251"
+           x="556.68329"
+           y="118.53333"
            id="tspan90">blog.kenanb.com</tspan></tspan><tspan
          id="tspan11"
-         x="532.28882"
-         y="126.69164"
+         x="556.68329"
+         y="127.02246"
          style="font-size:6.35px;line-height:1;text-align:end;text-anchor:end">LICENSE: BSD-2-Clause</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:16.9333px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;stroke-width:0.264583"
-       x="525.91101"
-       y="37.046806"
-       id="text86"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:end;text-anchor:end;fill:#4d4d4d;stroke-width:0.264583"
-         x="525.91101"
-         y="37.046806"
-         id="tspan94">Legacy (non-VEX) x86-64</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:end;text-anchor:end;fill:#4d4d4d;stroke-width:0.264583"
-         x="525.91101"
-         y="58.21682"
-         id="tspan8"
-         dx="0.96556646">Instruction Encoding</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.9333px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:end;text-anchor:end;fill:#b3b3b3;stroke-width:0.264583"
-         x="525.91101"
-         y="79.386833"
-         id="tspan105">( diagram draft 0)</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-size:16.9333px;line-height:1;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;stroke-width:0.264583"
-       x="532.26111"
-       y="178.58461"
+       x="558.79999"
+       y="181.11894"
        id="text103"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:end;text-anchor:end;fill:#ff8080;stroke-width:0.264583"
-         x="532.26111"
-         y="178.58461"
+         x="558.79999"
+         y="181.11894"
          id="tspan102">This diagram is a very early draft.</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:1;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';text-align:end;text-anchor:end;fill:#ff8080;stroke-width:0.264583"
-         x="532.26111"
-         y="195.51791"
+         x="558.79999"
+         y="198.05225"
          id="tspan103">It definitely contains errors.</tspan></text>
   </g>
+  <text
+     xml:space="preserve"
+     style="font-size:12.7px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+     x="8.4666662"
+     y="18.436167"
+     id="text20"><tspan
+       id="tspan20"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.264583"
+       x="8.4666662"
+       y="18.436167">Legacy (non-VEX) x86-64</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';stroke-width:0.264583"
+       x="8.4666662"
+       y="34.313705"
+       id="tspan21">Instruction Encoding</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, ';fill:#b3b3b3;stroke-width:0.264583"
+       x="8.4666662"
+       y="50.191246"
+       id="tspan22">( diagram draft 0)</tspan></text>
 </svg>
