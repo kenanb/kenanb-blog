@@ -8,7 +8,7 @@ published: true
 
 I tried to generate a diagram of the x86-64 legacy encoding based on what I know so far.
 
-In [the last post][int-asm-4], we dove into the x86-64 binary we generated earlier, and figure out the encoding.
+In [the last post][int-asm-4], we dove into the x86-64 binary we generated earlier, and figured out the encoding.
 
 [ *Check out all posts in "low-level" series [here][series-low-level].* ]
 
@@ -20,7 +20,7 @@ We will also test it with a few instruction variations. Hopefully, it will at le
 
 ## Addressing Modes
 
-Understanding the complete encoding requires understanding the all possible "addressing modes" used in x86 family, in detail. However, the nomenclature regarding addressing modes varies.
+Understanding the complete encoding requires understanding all possible "addressing modes" used in x86 family, in detail. However, the nomenclature regarding addressing modes varies.
 
 **I am pretty much a newbie in assembly.** So I rather avoid adding further to the confusion by trying to document addressing modes. I just skimmed [this StackOverflow answer][so-addressing-modes] and [this blog post][yossarian-addressing-modes], both look like good, detailed descriptions.
 
