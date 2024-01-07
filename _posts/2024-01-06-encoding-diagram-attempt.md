@@ -81,7 +81,7 @@ Looking at the REX byte (`49`) in binary:
 0100 1001
 ```
 
-The remaining bits (`1001`) of the REX byte are:
+We said `4` (`0100`) is the REX Fixed Bit Pattern. The remaining bits (`1001`) of the REX byte are:
 ```
 REX.W: 1
 REX.R: 0
@@ -96,7 +96,8 @@ Since opcode doesn't encode a register itself, and since there is no SIB byte, I
 
 It is easy to visually confirm if there is an "extended" register code, because it should show up as a register that has a numeric name pattern from `R8*` to `R15*` instead of something like `RDX`.
 
-Remember, our assembly instruction was: `mov r8,rcx`. We can see the effect of `REX.W` being set, as 64-bit registers are used.
+Remember, our original instruction was `49 89 c8`, which is `mov r8,rcx`.
+- We can see the effect of `REX.W` being set, as 64-bit registers are used.
 - If we disassemble the version that has `REX.W` unset (`41 89 c8`), we get `mov r8d, ecx` which has 32-bit register operands.
 - And if we toggle `REX.B` instead (`48 89 c8`), we get `mov rax, rcx`, which replaced `r8` with `rax`. Register code for `rax` is 0, and register code for `r8` is 8.
 - We can also try to toggle `REX.R`, which is supposed to extend the `ModR/M.reg` slot. Disassembling `4d 89 c8` will give us `mov r8, r9`. So this time, `rcx` became `r9`.
