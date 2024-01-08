@@ -18,6 +18,8 @@ Recently, based on my limited (and possibly faulty) understanding, I drew an enc
 
 We will also test it with a few instruction variations. Hopefully, it will at least help someone build a minimal mental model.
 
+**Update [ 2024-01-08 ]**: This post generated [a super informative discussion on HN][hn-exploring-x86-64-insn-encoding].
+
 ## Addressing Modes
 
 Understanding the complete encoding requires understanding all possible "addressing modes" used in x86 family, in detail. However, the nomenclature regarding addressing modes varies.
@@ -39,8 +41,8 @@ If you read up further on addressing modes, note that there are also cases where
 
 ## Encoding Diagram
 
-Below is the diagram. It doesn't document [VEX encoding][wikipedia-vex-prefix]. This is just the legacy encoding with REX prefix. The `ModR/M` and `SIB` bytes) are vertically placed (least-significant-bit being the top), to emphasize that REX byte "extends" the values stored of those bytes. Their actual placement in the instruction layout should also be clear.
-
+Below is the diagram. It doesn't document [VEX encoding][wikipedia-vex-prefix]. This is just the legacy encoding with REX prefix. The `ModR/M` and `SIB` bytes are vertically placed (least-significant-bit being the top), to emphasize that REX byte "extends" the values stored of those bytes. Their actual placement in the instruction layout should also be clear
+.
 ![Legacy (non-VEX) x86-64 Instruction Encoding](/assets/img/x86-64-insn-encoding.png){: width="740" }
 
 The source of this diagram is (and future iterations will be) [available here in SVG form][diagram-x86-insn-encoding].[^1]
@@ -165,3 +167,5 @@ Thanks for reading!
 [intel-sdm]: https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html
 [amd-apm]: https://www.amd.com/en/search/documentation/hub.html#q=AMD64%20Architecture&sortCriteria=%40amd_release_date%20descending&f-amd_product_type=Processors&f-amd_document_type=Programmer%20References
 [x86-64-insn-ref-89]: http://ref.x86asm.net/coder64.html#x89
+
+[hn-exploring-x86-64-insn-encoding]: https://news.ycombinator.com/item?id=38899860

@@ -37,6 +37,7 @@ I will keep adding to this list as I encounter new resources.
 **Update [ 2024-01-08 ]**: Adding useful resources pointed out in [this HN discussion][hn-exploring-x86-64-insn-encoding].
 - [Intel XED][intelxed]: "An library and CLI tool for encoding and decoding instructions between hex and their mnemonics." - *[HN comment][hn-comment-38907702] from xelxebar*
 - [x86 Is an Octal Machine (1995)][x86-octal]: "Understanding x86 instruction encoding is far better done in octal --- you can memorise most of the instruction set this way." - *[HN comment][hn-comment-38907539] from userbinator*
+- [Compiling a Lisp: Instruction encoding interlude][bernsteinbear-compiling-a-lisp-10] - Great post describing the instruction encoding with diagrams and references to [Intel's SDM][intel-sdm] Volume 2. (Thanks to *[HN comment][hn-comment-38908648] from tekknolagi*.)
 
 [int-asm-5]: {% post_url 2024-01-06-encoding-diagram-attempt %}
 
@@ -58,6 +59,8 @@ I will keep adding to this list as I encounter new resources.
 
 [intelxed]: https://intelxed.github.io/
 [x86-octal]: https://gist.github.com/seanjensengrey/f971c20d05d4d0efc0781f2f3c0353da
+[bernsteinbear-compiling-a-lisp-10]: https://bernsteinbear.com/blog/compiling-a-lisp-10/
 [hn-exploring-x86-64-insn-encoding]: https://news.ycombinator.com/item?id=38899860
 [hn-comment-38907702]: https://news.ycombinator.com/item?id=38907702
 [hn-comment-38907539]: https://news.ycombinator.com/item?id=38907539
+[hn-comment-38908648]: https://news.ycombinator.com/item?id=38908648
