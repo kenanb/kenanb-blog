@@ -217,6 +217,8 @@ As we can see, it is not easy, but there is no magic.
 
 I provided links to some common resources, and tried to describe in which context they are relevant. But the ultimate references of this topic are Intel's [Software Developer's Manual][intel-sdm] and AMD's [AMD64 Architecture Programmer's Manual][amd-apm] volumes.
 
+**Update [ 2024-01-08 ]**: The complete set of resources is being [collected in a separate post][int-asm-6].
+
 In the next post, we will check out the x86-64 binary, but that one will be shorter.
 
 Thanks for reading!
@@ -227,6 +229,8 @@ Thanks for reading!
 [^4]: Default operand size is 32 bits for x86. And when code targeting x86 is run in x86-64, it runs in ["compatibility mode", which uses x86 encoding][wikipedia-x86-64-opmodes]. So the operand size is, again, 32 bits. In fact, even in 64-bit mode, default operand size is still 32 bits, while the address size is 64 bits.
 
 [report]: https://github.com/kenanb/kenanb-blog/issues
+
+[int-asm-6]: {% post_url 2024-01-07-x86-insn-encoding-resources %}
 [encoding-real-x86-insn]: http://www.c-jump.com/CIS77/CPU/x86/lecture.html
 [wikipedia-x86-64-opmodes]: https://en.wikipedia.org/wiki/X86-64#OPMODES
 [int-asm-1]: {% post_url 2024-01-02-minimal-x86-64-binary %}

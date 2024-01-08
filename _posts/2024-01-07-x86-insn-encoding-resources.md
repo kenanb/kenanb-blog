@@ -34,6 +34,10 @@ Also, when I look for reliable and focused information on a specific x86 topic, 
 
 I will keep adding to this list as I encounter new resources.
 
+**Update [ 2024-01-08 ]**: Adding useful resources pointed out in [this HN discussion][hn-exploring-x86-64-insn-encoding].
+- [Intel XED][intelxed]: "An library and CLI tool for encoding and decoding instructions between hex and their mnemonics." - *[HN comment][hn-comment-38907702] from xelxebar*
+- [x86 Is an Octal Machine (1995)][x86-octal]: "Understanding x86 instruction encoding is far better done in octal --- you can memorise most of the instruction set this way." - *[HN comment][hn-comment-38907539] from userbinator*
+
 [int-asm-5]: {% post_url 2024-01-06-encoding-diagram-attempt %}
 
 [wikipedia-x86]: https://en.wikipedia.org/wiki/X86
@@ -51,3 +55,9 @@ I will keep adding to this list as I encounter new resources.
 [codeproject-x86-instruction-encoding-revealed]: https://www.codeproject.com/Articles/662301/x86-Instruction-Encoding-Revealed-Bit-Twiddling-fo
 [dmitriy-x86-64-insn-encoding]: https://www.youtube.com/watch?v=5FCgOFbKHYU
 [so-addressing-modes]: https://stackoverflow.com/a/34058400
+
+[intelxed]: https://intelxed.github.io/
+[x86-octal]: https://gist.github.com/seanjensengrey/f971c20d05d4d0efc0781f2f3c0353da
+[hn-exploring-x86-64-insn-encoding]: https://news.ycombinator.com/item?id=38899860
+[hn-comment-38907702]: https://news.ycombinator.com/item?id=38907702
+[hn-comment-38907539]: https://news.ycombinator.com/item?id=38907539

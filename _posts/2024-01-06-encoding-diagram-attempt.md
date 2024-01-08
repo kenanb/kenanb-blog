@@ -53,6 +53,8 @@ Of course, this is inherently complicated. x86-only and simpler diagrams in [Enc
 
 As usual, if you need reliable information on this, you should check out Intel's [Software Developer's Manual][intel-sdm] and AMD's [AMD64 Architecture Programmer's Manual][amd-apm] volumes.
 
+**Update [ 2024-01-08 ]**: The complete set of resources is being [collected in a separate post][int-asm-6].
+
 ## Testing
 
 Now, let's start testing with an instruction, and make modifications based on the diagram.
@@ -154,6 +156,7 @@ Thanks for reading!
 [int-asm-2]: {% post_url 2024-01-03-syntax-choices-for-x86 %}
 [int-asm-3]: {% post_url 2024-01-04-x86-insn-encoding %}
 [int-asm-4]: {% post_url 2024-01-05-x86-64-insn-encoding %}
+[int-asm-6]: {% post_url 2024-01-07-x86-insn-encoding-resources %}
 [so-addressing-modes]: https://stackoverflow.com/a/34058400
 [yossarian-addressing-modes]: https://blog.yossarian.net/2020/06/13/How-x86_64-addresses-memory
 [diagram-x86-insn-encoding]: https://github.com/kenanb/kenanb-blog/tree/main/diagram/x86-insn-encoding
