@@ -48,7 +48,7 @@ static void
 
 These functions are verbatim copied from Chandler Carruth's [CppCon 2015 talk "Tuning C++: Benchmarks, and CPUs, and Compilers! Oh My!"][cppcon-2015-carruth-benchmark]. (**I highly recommend watching this!**)
 
-They are basically used to prevent compiler optimizations from messing with the benchmarking attempt. Chandler describes it in detail in the talk. Here are some other explanations I found on StackOverflow regarding this, and another related pattern: [ Link 1 ][so-answer-0], [ Link 2 ][so-answer-1], [ Link 3 ][so-answer-2].
+They are basically used to prevent compiler optimizations from messing with the benchmarking attempt. Chandler describes it in detail in the talk. Here are some other explanations I found on StackOverflow regarding this, and another related pattern: [ Link 0 ][so-answer-0], [ Link 1 ][so-answer-1], [ Link 2 ][so-answer-2], [ Link 3 ][so-answer-3].
 
 OK, back to resources. The online documentation on the topic of inline assembly seems pretty good.
 
@@ -81,6 +81,7 @@ Thanks for reading!
 [osdev-inline-assembly]: https://wiki.osdev.org/Inline_Assembly
 [fullcoll-cs241-asm-to-c]: https://staffwww.fullcoll.edu/aclifton/cs241/lecture-asm-to-c-interop.html
 [fullcoll-cs241]: https://staffwww.fullcoll.edu/aclifton/courses/cs241/
-[so-answer-0]: https://stackoverflow.com/a/52208443
-[so-answer-1]: https://stackoverflow.com/a/44566496
-[so-answer-2]: https://stackoverflow.com/a/40149692
+[so-answer-0]: https://stackoverflow.com/q/38250846
+[so-answer-1]: https://stackoverflow.com/a/40149692
+[so-answer-2]: https://stackoverflow.com/a/52208443
+[so-answer-3]: https://stackoverflow.com/a/44566496
