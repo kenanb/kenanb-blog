@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Podcast Suggestion: Revolutions"
+title:  "Recommended Podcast: Revolutions"
 date:   2024-01-08 22:00:00 +1300
 categories: media
 published: true
