@@ -14,7 +14,7 @@ Collecting resources to start exploring interop between C, C++ and x86 Assembly.
 
 I originally studied Architecture (as in buildings).
 
-[Niklaus Wirth][wikipedia-niklaus-wirth] was among the many computer science pioneers that I started reading many years after I got into programming. I was reading [Algorithms and Data Structures][wikipedia-algorithms-data-structures] recently, and I was really enjoying it. By now I am, as many others, a fan of his work.
+[Niklaus Wirth][wikipedia-niklaus-wirth] is among the computer science pioneers that I started reading many years after I got into programming. I have been reading [Algorithms and Data Structures][wikipedia-algorithms-data-structures] recently, and I am really enjoying it. I am, as many others, a fan of his work by now.
 
 Wirth has died last week.
 
