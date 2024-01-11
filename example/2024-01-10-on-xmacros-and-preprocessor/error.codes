@@ -1,0 +1,16 @@
+CONDITION( GENERIC_FAILURE,
+           "Something failed. No information." )
+CONDITION( GLFW_INIT_FAILED,
+           "GLFW error during initialization!" )
+CONDITION( GLFW_WINDOW_FAILED,
+           "GLFW error during window creation!" )
+CONDITION( NO_VULKAN,
+           "Vulkan not found!" )
+CONDITION( UNSUPPORTED_EXTENSION,
+           "Required extension not available." )
+CONDITION( UNSUPPORTED_VLAYER,
+           "Requested layer not available." )
+CONDITION( VK_INSTANCE_FAILED,
+           "Failed to create Vulkan instance!" )
+
+/*              ... MORE ERRORS HERE ...                   */
