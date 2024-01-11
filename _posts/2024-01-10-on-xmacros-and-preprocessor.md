@@ -225,9 +225,9 @@ That resulted in an interesting set of simple macro-based abstractions to also p
 
 ## A Macro Error
 
-Now, imagine there is an error, and it looks like a macro related issue. I once read [VSCode can do C/C++ macroexpansion nowadays][vscode-expand] so maybe this is not a problem for most programmers nowadays. But in case that's not solving it for you, you can also use GCC to generate the expanded state for you.
+Now, imagine there is an error, and it looks like a macro related issue. I once read [VSCode can do C/C++ macroexpansion nowadays][vscode-expand] so maybe this is not a problem for most programmers. (I use Emacs.) But in case that's not solving it for you, GCC can help.
 
-After all, you can ask GCC compiler driver to only preprocess the source file, instead of compiling it, using the [`-E` option][gcc-options].
+After all, you can ask GCC to only preprocess the source file, instead of compiling it, using the [`-E` option][gcc-options].
 
 For debugging macros and preprocessing in general, I usually also add [`-P` and `-H` preprocessor options][gcc-preprocessor-options] as well:
 
