@@ -67,7 +67,7 @@ I think the biggest challenge so far was the lack of reliable information online
 - A lot of outdated and partial information.
 - Generally more information on LXD etc. that I had to reinterpret.
 
-Overall, I am really happy I spent the time to get an LXC container working.
+Overall, I am really happy I spent the time to get an LXC container working. But it did make me wonder if LXD is a more viable starting point.
 
 ## Details
 
