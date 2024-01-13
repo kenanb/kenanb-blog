@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linux Containers: First Impressions"
-date:   2024-01-13 10:00:00 +1300
+date:   2024-01-13 13:15:00 +1300
 categories: code containers
 published: true
 ---
