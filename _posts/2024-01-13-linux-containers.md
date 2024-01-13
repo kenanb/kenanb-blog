@@ -67,6 +67,8 @@ I think the biggest challenge so far was the lack of reliable information online
 - A lot of outdated and partial information.
 - Generally more information on LXD etc. that I had to reinterpret.
 
+Overall, I am really happy I spent the time to get LXC working.
+
 ## Details
 
 This was a few weeks ago so I can't remember all issues I encountered.
@@ -83,7 +85,7 @@ I really enjoy that it supports things like cloning a container using *overlayfs
 
 There are a few rough edges. I do an OS update in container, and I get seemingly harmless permission denied errors, probably due to packages trying to run hooks that are unapplicable to a container.
 
-But I am really happy I spent the time to get LXC working. I am confident that this 
+But it works as I expected.
 
 Thanks for reading! If you find technical errors, please report in the blog's [Issues page][report].
 
