@@ -67,7 +67,7 @@ I think the biggest challenge so far was the lack of reliable information online
 - A lot of outdated and partial information.
 - Generally more information on LXD etc. that I had to reinterpret.
 
-Overall, I am really happy I spent the time to get LXC working.
+Overall, I am really happy I spent the time to get an LXC container working.
 
 ## Details
 
@@ -75,15 +75,15 @@ This was a few weeks ago so I can't remember all issues I encountered.
 
 I believe I started with [this][ubuntu-lxc], but I got the impression that it is outdated. My host system is ArchLinux so [its wiki page][archlinux-lxc] ended up being much better guidance for me, in terms of initial setup. I also referred to information [here][linuxcontainers-lxc] for creating unprevilaged containers. I had to jump between a few online threads to get GPU support and "connection to host X" working.
 
-I am not very happy with the various solutions available for the `connecting to host X" part, but I found once that works. It is fine for my situation. (I do wonder if I should have instead tried to get the container run its own X or Wayland session.)
+I am not very happy with the various solutions available for the `connecting to host X" part, but I found one that works, and it is fine for my situation. (I do wonder if I should have instead tried to get the container run its own X or Wayland session.)
 
 I get the impression that all this is relatively straightforward with LXD because it has templates (?) for that.
 
 I am still in the "not quite sure about the implications of this thing that I am doing in config" phase of "understanding LXC containers".
 
-I really enjoy that it supports things like cloning a container using *overlayfs*. But once I started utilizing it, I realized I need to internalize the concept a bit to understand how to use it effectively.
+I really enjoy that LXC supports things like cloning a container using *overlayfs*. But once I started utilizing it, I realized I need to internalize the concept a bit to understand how to use it effectively.
 
-There are a few rough edges. I do an OS update in container, and I get seemingly harmless permission denied errors, probably due to packages trying to run hooks that are unapplicable to a container.
+There are a few rough edges. When I run package update in container, I sometimes get seemingly harmless permission denied errors, probably due to packages trying to run hooks that are unapplicable to a container.
 
 But it works as I expected.
 
