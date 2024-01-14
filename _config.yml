@@ -23,7 +23,7 @@ title: Kenan Bölükbaşı - Blog
 description: >- # this means to ignore newlines until "baseurl:"
   A blog about programming and graphics.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "blog.kenanb.com" # the base hostname & protocol for your site.
+url: "https://blog.kenanb.com" # the base hostname & protocol for your site.
 twitter_username: kenanbolukbasi
 github_username:  kenanb
 series: ["c-cpp", "low-level"]
