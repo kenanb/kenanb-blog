@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Debugging Tip: this is usually rdi!"
+title:  "Debugging Tip: this is usually %rdi"
 date:   2024-01-14 15:00:00 +1300
 categories: code low-level
 published: true
@@ -16,7 +16,7 @@ Here is the key takeaway of this post:
 
 **In x86-64 Linux distributions, [the `this` pointer][cppreference-this] will _usually_ be passed via `rdi` register when calling a non-static member function.**
 
-Nowadays, most debugging is thankfully done at source level. However, I think some familiarity of lower-level patterns is good. The `rdi` pointer is a good start, because it is easy to remember, and it shows up a lot in generated instructions.
+Nowadays, most debugging is thankfully done at source level. However, I think some familiarity of lower-level patterns is good. The role of `rdi` register is a good start, because it is easy to remember, and it shows up a lot in generated instructions.
 
 I will start with this occasionally-useful bit of information, and use it as an excuse to discuss some key concepts in future posts. Some of these concepts will be needed to [understand interop][int-asm-7] as well.
 
@@ -117,11 +117,11 @@ Here is the function block graph `rizin` generated for `main`:
 '------------------'
 ```
 
-While disassembling, `rizin` generates convenient symbol names for data addresses. So that's cool.
+While disassembling, `rizin` generates convenient symbol names for data addresses, which is easier to read.
 
 I annotated the important bits.
 
-Copy the address of stack location reserved for `foo`, to `rax`:
+[Write the address][felix-lea] of stack location reserved for `foo`, to `rax`:
 ``` nasm
 lea   rax, [var_11h] ; local.get 1
 ```
@@ -155,7 +155,7 @@ And here is the beginning of `Foo::RandChar`:
 |                 ...                      |
 ```
 
-Thanks to `rizin`'s annotation of the function, we can clearly see that it took one implicit argument, and that was carried via `rdi`.
+Thanks to `rizin`'s annotation of the function, we can clearly see that the function got one implicit argument, and that was passed via `rdi`.
 
 This behaviour is defined as a combination of ABI standards:
 
@@ -190,6 +190,7 @@ That's it for today. Thanks for reading. If you find technical errors, please re
 [int-asm-7]: {% post_url 2024-01-09-c-assembly-interop %}
 
 [cppreference-this]: https://en.cppreference.com/w/cpp/language/this
+[felix-lea]: https://www.felixcloutier.com/x86/lea
 [itanium-abi]: https://itanium-cxx-abi.github.io/cxx-abi/abi.html
 [itanium-abi-this]: https://itanium-cxx-abi.github.io/cxx-abi/abi.html#this-parameters
 [wikipedia-cc-amd64-abi]: https://en.wikipedia.org/wiki/X86_calling_conventions#System_V_AMD64_ABI
