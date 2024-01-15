@@ -76,45 +76,45 @@ Generated char is: S
 Here is the function block graph `rizin` generated for `main`:
 
 ```
- ┌───────────────────────────────────────────────┐
- │  0x5563e81b9179                               │
- │ int main(int argc, char **argv, char **envp); │
- │ ; var int64_t var_11h @ stack - 0x11          │
- │ ; var int64_t var_10h @ stack - 0x10          │
- │ push  rbp                                     │
- │ mov   rbp, rsp                                │
- │ sub   rsp, 0x10                               │
- │ mov   rax, qword fs:[0x28]                    │
- │ mov   qword [var_10h], rax ; local.set 1      │
- │ xor   eax, eax                                │
- │ lea   rax, [var_11h] ; local.get 1            │
- │ mov   esi, 0x40                               │
- │ mov   rdi, rax                                │
- │ call  sym.Foo::Foo_char                       │
- │ lea   rax, [var_11h] ; local.get 1  <- address of foo
- │ mov   rdi, rax                      <- copy addr to RDI
- │ call  sym.Foo::RandChar             <- call Foo::RandChar
- │ movsx eax, al                                 │
- │ mov   esi, eax                                │
- │ lea   rax, str.Generated_char_is:__c          │
- │ mov   rdi, rax                                │
- │ mov   eax, 0                                  │
- │ call  sym.imp.printf                          │
- │ mov   eax, 0                                  │
- │ mov   rdx, qword [var_10h] ; local.get 1      │
- │ sub   rdx, qword fs:[0x28]                    │
- │ je    0x5563e81b91df                          │
- └───────────────────────────────────────────────┘
+ .-----------------------------------------------.
+ |  0x5563e81b9179                               |
+ | int main(int argc, char **argv, char **envp); |
+ | ; var int64_t var_11h @ stack - 0x11          |
+ | ; var int64_t var_10h @ stack - 0x10          |
+ | push  rbp                                     |
+ | mov   rbp, rsp                                |
+ | sub   rsp, 0x10                               |
+ | mov   rax, qword fs:[0x28]                    |
+ | mov   qword [var_10h], rax ; local.set 1      |
+ | xor   eax, eax                                |
+ | lea   rax, [var_11h] ; local.get 1            |
+ | mov   esi, 0x40                               |
+ | mov   rdi, rax                                |
+ | call  sym.Foo::Foo_char                       |
+ | lea   rax, [var_11h] ; local.get 1  <- address of foo
+ | mov   rdi, rax                      <- copy addr to RDI
+ | call  sym.Foo::RandChar             <- call Foo::RandChar
+ | movsx eax, al                                 |
+ | mov   esi, eax                                |
+ | lea   rax, str.Generated_char_is:__c          |
+ | mov   rdi, rax                                |
+ | mov   eax, 0                                  |
+ | call  sym.imp.printf                          |
+ | mov   eax, 0                                  |
+ | mov   rdx, qword [var_10h] ; local.get 1      |
+ | sub   rdx, qword fs:[0x28]                    |
+ | je    0x5563e81b91df                          |
+ '-----------------------------------------------'
        t f
-       │ │
-    ┌──┘ │
-    │    └──────────────────┐
-    │                       │
-┌──────────────────┐    ┌────────────────────────────────┐
-│  0x5563e81b91df  │    │  0x5563e81b91da                │
-│ leave            │    │ call  sym.imp.__stack_chk_fail │
-│ ret              │    └────────────────────────────────┘
-└──────────────────┘
+       | |
+    .--' |
+    |    '------------------.
+    |                       |
+.------------------.    .--------------------------------.
+|  0x5563e81b91df  |    |  0x5563e81b91da                |
+| leave            |    | call  sym.imp.__stack_chk_fail |
+| ret              |    '--------------------------------'
+'------------------'
 ```
 
 While disassembling, `rizin` generates convenient symbol names for data addresses. So that's cool.
@@ -140,19 +140,19 @@ Note that there is some obvious redundancy here due to optimization being disabl
 
 And here is the beginning of `Foo::RandChar`:
 ```
-┌──────────────────────────────────────────┐
-│  0x5563e81b91fc                          │
-│ sym.Foo::RandChar(int64_t arg1);         │
-│ ; arg int64_t arg1 @ rdi                 │
-│ ; var int64_t var_20h @ stack - 0x20     │
-│ ; var int64_t var_9h @ stack - 0x9       │
-│ push  rbp                                │
-│ mov   rbp, rsp                           │
-│ sub   rsp, 0x20                          │
-│ mov   qword [var_20h], rdi ; local.set 1 │
-│ call  sym.imp.clock                      │
-│ mov   edi, eax                           │
-│                 ...                      │
+.------------------------------------------.
+|  0x5563e81b91fc                          |
+| sym.Foo::RandChar(int64_t arg1);         |
+| ; arg int64_t arg1 @ rdi                 |
+| ; var int64_t var_20h @ stack - 0x20     |
+| ; var int64_t var_9h @ stack - 0x9       |
+| push  rbp                                |
+| mov   rbp, rsp                           |
+| sub   rsp, 0x20                          |
+| mov   qword [var_20h], rdi ; local.set 1 |
+| call  sym.imp.clock                      |
+| mov   edi, eax                           |
+|                 ...                      |
 ```
 
 Thanks to `rizin`'s annotation of the function, we can clearly see that it took one implicit argument, and that was carried via `rdi`.
