@@ -1,0 +1,19 @@
+.------------------------------------------------.
+|  0x5563e81b91e2                                |
+| sym.Foo::Foo_char(int64_t arg1, int64_t arg2); |
+| ; arg int64_t arg1 @ rdi                       |
+| ; arg int64_t arg2 @ rsi                       |
+| ; var int64_t var_14h @ stack - 0x14           |
+| ; var int64_t var_10h @ stack - 0x10           |
+| push  rbp                                      |
+| mov   rbp, rsp                                 |
+| mov   qword [var_10h], rdi ; local.set 1       |
+| mov   eax, esi                                 |
+| mov   byte [var_14h], al ; local.set 1         |
+| mov   rax, qword [var_10h] ; local.get 1       |
+| movzx edx, byte [var_14h] ; local.get 1        |
+| mov   byte [rax], dl                           |
+| nop                                            |
+| pop   rbp                                      |
+| ret                                            |
+'------------------------------------------------'
