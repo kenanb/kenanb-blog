@@ -247,6 +247,8 @@ The rules of how these are achived is described in "Parameter Passing" section (
 
 We already detailed one example call [in previous post][int-prev]. It is all the same rules repeated for calls to various functions. So I will skip those parts.
 
+**Update [ 2024-01-17 ]**: I discussed the `lea` instruction that shows up above [in my next post][int-next].
+
 I will just mention that, in the line I marked `19`, we do:
 ``` nasm
 mov   eax, 0
@@ -262,6 +264,7 @@ Thanks for reading!
 
 [report]: https://github.com/kenanb/kenanb-blog/issues
 [int-prev]: {% post_url 2024-01-14-debugging-tip-this-is-usually-rdi %}
+[int-next]: {% post_url 2024-01-17-lea-instruction %}
 [source]: https://github.com/kenanb/kenanb-blog/tree/main/example/2024-01-14-debugging-tip-this-is-usually-rdi
 
 [gcc-optimize-options]: https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-O
