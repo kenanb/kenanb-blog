@@ -12,7 +12,9 @@ Deconstructing the assembly resulting from example C++ code we compiled last tim
 
 [series-low-level]: {% link series.md %}#low-level
 
-Recently, I shared a tip about [`this` pointer][int-prev]. It included the disassembly of a small program we compiled. Today, I will elaborate on various parts of that disassembly. To check out the C++ code that generated this, refer  to the previous post.
+My [previous post on low-level code][int-prev] was about `this` pointer. That included a small example program -compiled with optimizations disabled- and its disassembly.
+
+This time, I elaborated on various code generation patterns that show up in that disassembly.[^1]
 
 ## Reference
 
@@ -22,7 +24,7 @@ As we mentioned before, System V ABI is used on Linux x86-64. The ABI consists o
 
 The "System V ABI - AMD64 Architecture Processor Supplement" is the document I often refer to.
 
-Calling conventions are documented in the processor supplement. I am not certain where the "official" up-to-date source is, but I get the latest psABI (processor supplement ABI) PDF from [this gitlab repo][gitlab-x86-psABIs-x86-64-ABI].[^1]
+Calling conventions are documented in the processor supplement. I am not certain where the "official" up-to-date source is, but I get the latest psABI (processor supplement ABI) PDF from [this gitlab repo][gitlab-x86-psABIs-x86-64-ABI].[^2]
 
 ## Disassembly
 
@@ -255,7 +257,8 @@ That's all for today. The source is [shared in blog's repository][source]. If yo
 
 Thanks for reading!
 
-[^1]: There is also [an OSDev page][osdev-abi] that has links to related documents. This [SO answer][so-abi-documents] also has links to relevant docs.
+[^1]: To check out the C++ code that generated this, refer to [the previous post][int-prev].
+[^2]: There is also [an OSDev page][osdev-abi] that has links to related documents. This [SO answer][so-abi-documents] also has links to relevant docs.
 
 [report]: https://github.com/kenanb/kenanb-blog/issues
 [int-prev]: {% post_url 2024-01-14-debugging-tip-this-is-usually-rdi %}
