@@ -183,11 +183,9 @@ Next, we have these sections surrounding rest of the code.
 
 This logic is called stack protector, or stack guard.
 
-There is a "stack canary" value stored at `fs:[0x28]`. This value is copied to s
-
 You can read about this [in this SO thread][so-stack-guard], and in the [description of related GCC option][gcc-optimize-stack-protector].
 
-Basically, a special value is copied to stack at the beginning of the function. Near the end of the function, we confirm that it wasn't overwritten. If it was overwritten, we call the "stack check failure" routine. Otherwise, we proceed to epilog and return normally.
+Basically, a special value ("stack canary" value stored at `fs:[0x28]`) is copied to stack first. Near the end of the function, we confirm that it wasn't overwritten. If it was overwritten, we call the "stack check failure" routine. Otherwise, we proceed to epilog and return normally.
 
 Note that the SO discussion explicitly refers to `XOR`. In our example, we see a `SUB` instruction instead. But it should achieve the same result in this case.
 
