@@ -30,7 +30,7 @@ Below command is for `binutils` version of `objdump` (`this_is_rdi` being the ex
 objdump --disassemble=main -C -M intel this_is_rdi
 ```
 
-We get this:
+This is the relevant part of the output:
 ``` nasm
 ...
 lea    rax,[rbp-0x9]
@@ -59,7 +59,7 @@ As it should be clear from the `intel` syntax, the instruction is used to "multi
 - a brief description of this use [in this StackOverflow answer][so-leal-brief].
 - a detailed explanation [in this other answer][so-leal-detail].
 
-Some more details on the subtleties around `lea` instruction can be found in the "16.1 LEA instruction (all processors)" section of Agner Fog's manual called: "Optimizing subroutines in assembly language: An optimization guide for x86 platforms". The manual [can be found in this page][agner-optimize]. It states:
+Some more details on the subtleties around `lea` instruction is available in the "16.1 LEA instruction (all processors)" section of Agner Fog's manual called: "Optimizing subroutines in assembly language: An optimization guide for x86 platforms". The manual [can be found in this page][agner-optimize]. It states:
 
 > The LEA instruction is useful for many purposes because it can do a shift operation, two
 additions, and a move in just one instruction.
