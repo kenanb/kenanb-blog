@@ -264,7 +264,7 @@ Thanks for reading!
 
 [report]: https://github.com/kenanb/kenanb-blog/issues
 [int-prev]: {% post_url 2024-01-14-debugging-tip-this-is-usually-rdi %}
-[int-next]: {% post_url 2024-01-17-lea-instruction %}
+[int-next]: {% post_url 2024-01-17-lea-instruction-is-powerful %}
 [source]: https://github.com/kenanb/kenanb-blog/tree/main/example/2024-01-14-debugging-tip-this-is-usually-rdi
 
 [gcc-optimize-options]: https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html#index-O

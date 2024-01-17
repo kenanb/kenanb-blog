@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LEA Instruction"
+title:  "LEA Instruction is Powerful"
 date:   2024-01-17 17:00:00 +1300
 categories: code low-level
 published: true
