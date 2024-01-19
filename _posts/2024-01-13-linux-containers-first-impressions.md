@@ -10,6 +10,10 @@ Early opinions on Linux Containers (LXC).
 
 [ *This is not an LXC tutorial. I am too new to the tech to write a reliable tutorial.* ]
 
+[ *Check out all posts in "containers" series [here][series-containers].* ]
+
+[series-containers]: {% link series.md %}#containers
+
 I am relatively ignorant of containers. I have evaluated introducing them into my daily development workflow, many times. Every time I read about it, it was mostly in terms of [Docker][wikipedia-docker]. And Docker always felt like a few layers of extra complexity for marginal benefit in my case.
 
 I generally assume that the kind of development I do doesn't benefit a lot from containerization.

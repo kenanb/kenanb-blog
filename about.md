@@ -16,6 +16,8 @@ Unless otherwise stated in the specific post, all code blocks are licensed under
 
 If you find technical errors, please report in the blog's [Issues page][report].
 
+**External Links Disclaimer**: External links are being provided as a convenience and for informational purposes only; they do not constitute an endorsement or an approval of any of the products, services or opinions of the corporation or organization or individual. I bear no responsibility for the accuracy, legality or content of the external site or for that of subsequent links.
+
 [cv-pdf]: http://kenanb.com/kenan_bolukbasi_cv.pdf
 [resume-pdf]: http://kenanb.com/kenan_bolukbasi_resume.pdf
 [bsd-2-clause-license]: https://github.com/kenanb/kenanb-blog/blob/main/LICENSE
