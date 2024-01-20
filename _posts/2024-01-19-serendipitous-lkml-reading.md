@@ -25,7 +25,7 @@ UMCG? What is that? I had no description in the file. Quick googling didn't prod
 
 It took a while to find out that it stands for: [User-Managed Concurrency Groups][lwn-umcg].
 
-According to [this LKML post][lkml-p0][^1] from 2021, UMCG is a **proposed** Linux Kernel feature, as part of the work to open-source the "Google Fibers" userspace scheduling framework. There is [a Phoronix post about this][phoronix-p0] as well.
+According to [this LKML post][lkml-p0][^1] from 2021, UMCG is a **proposed** Linux Kernel feature, as part of the work to open-source the "Google Fibers" userspace scheduling framework.
 
 I don't quite know how learning more about this would be useful to me, but it sounded like a cool concept.
 
@@ -66,5 +66,4 @@ And that's it for today. Thanks for reading! If you find technical errors, pleas
 [criu-org-usage-scenarios]: https://criu.org/Usage_scenarios
 [criu-org-what-cannot-be-checkpointed]: https://criu.org/What_cannot_be_checkpointed
 [criu-what-can-change]: https://criu.org/What_can_change_after_C/R
-[phoronix-p0]: https://www.phoronix.com/news/Google-Fibers-Toward-Open
 [wikipedia-man-page]: https://en.wikipedia.org/wiki/Man_page
