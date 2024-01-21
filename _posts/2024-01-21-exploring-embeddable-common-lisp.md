@@ -24,7 +24,7 @@ Problems I want to throw Lisp at are sometimes existing tech written in C/C++. S
 
 Common Lisp generally has strong FFI support for C interop. But I also wanted to explore the implementations that are written with embedding in mind. So I am having a closer look at [Embeddable Common-Lisp][ecl-main] today. [Here is the Wikipedia page][wikipedia-ecl] for ECL.
 
-ECL has [a long history][ecl-history], and it has been actively maintained. I just found that one of the maintainers, Daniel Kochmański, has a nice European Lisp Symposium 2020 talk [uploaded on YouTube][els-2020-on-ecl], *which I paused to finish this post first*.
+ECL has [a long history][ecl-history], and it has been actively maintained. I just found that one of the maintainers, Daniel Kochmański, has a nice European Lisp Symposium 2020 talk [uploaded on YouTube][els-2020-on-ecl].
 
 As a starting point, I found [this nice embedding example][ecl-repo-example-embed] on ECL repository. It is pretty straightforward.
 
