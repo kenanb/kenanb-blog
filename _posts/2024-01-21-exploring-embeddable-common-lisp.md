@@ -34,8 +34,6 @@ Another very interesting CL implementation I started looking into is [Clasp][cla
 
 Thanks for reading! If you find technical errors, please report in the blog's [Issues page][report].
 
-[^1]: Same can be said for a few other languages, as well.
-
 [report]: https://github.com/kenanb/kenanb-blog/issues
 
 [int-lisp-1]: {% post_url 2024-01-20-my-road-to-common-lisp %}
