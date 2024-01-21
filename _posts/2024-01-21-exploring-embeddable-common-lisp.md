@@ -26,7 +26,7 @@ Common Lisp generally has strong FFI support for C interop. But I also wanted to
 
 ECL has [a long history][ecl-history], and it has been actively maintained. I just found that one of the maintainers, Daniel Kochmański, has a nice European Lisp Symposium 2020 talk [uploaded on YouTube][els-2020-on-ecl].
 
-As a starting point, I found [this nice embedding example][ecl-repo-example-embed] on ECL repository. It is pretty straightforward.
+As a starting point, I found [this simple embedding example][ecl-repo-example-embed] on ECL repository. It is pretty straightforward.
 
 I don't yet have a good understanding of the strenghts and weaknesses of this implementation. Will write more as I learn.
 
