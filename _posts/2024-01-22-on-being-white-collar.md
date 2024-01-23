@@ -28,7 +28,7 @@ This is wrong.
 
 Not sharing memes in a business network is good. Not boosting information about world events is not.
 
-Early in life, most of us were lucky and driven enough to receive good education. Education that would maybe allow us to accurately challenge the status-quo. But the society kindly, and constantly, hints us to not do it.[^1] It reminds me of something Kafka said:
+Many of us in there were lucky (and driven) enough to receive good education. Education that would maybe help in accurately challenging the status-quo where it matters. But the society kindly, and constantly, hints us to not do it.[^1] It reminds me of something Kafka said:
 
 > Atlas was permitted the opinion that he was at liberty, if he wished, to drop the Earth and creep away; but this opinion was all that he was permitted.
 
