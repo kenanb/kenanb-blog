@@ -22,7 +22,7 @@ Especially nowadays.
 
 The platform manages to successfully isolate itself from discussions on the larger troubles of humanity, simply by piggybacking on the workplace etiquette. And the user base supports this. You could claim that this is just people filtering what they share based on platform. But let's be honest: **We both know that's not the case here.** In time, we all become this carefully-curated people.
 
-The platform doesn't even try to prevent us. This collective behaviour is just a reflection of *what* we feel comfortable *being*: We are the white collar. We all subscribe to this idea of a "workplace ethic" that not only isolates businesses themselves from world events, it even isolates the social platforms about business from them. We are *professionals*. Professionalism, as a perfect excuse to avoid risky topics.
+The platform doesn't even try to prevent us. This collective behaviour is just a reflection of *what* we feel comfortable *being*: We are the white collar. We subscribe to an idea of a "workplace etiquette" that not only isolates businesses themselves from world events, it even isolates the social platforms about business from them. We are *professionals*. Professionalism, as a perfect excuse to avoid risky topics.
 
 This is wrong.
 
