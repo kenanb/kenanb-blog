@@ -12,7 +12,7 @@ Notes on Make build automation tool.
 
 [series-makefile]: {% link series.md %}#makefile
 
-I really appreciate modern meta-build, packaging, and deployment systems. But there is also something I like about *make* as a lower level build automation utility on UNIX. I think it fills a certain role in the larger ecosystem pretty well.
+I really appreciate modern meta-build, packaging, and deployment systems. But there is also something I like about [*make*][wikipedia-make] as a lower level build automation utility on UNIX. I think it fills a certain role in the larger ecosystem pretty well.
 
 I can think of a few cases where it is premature to go with a modern meta-build system.
 
@@ -26,4 +26,5 @@ I think *make* fits rather well to this kind of non-committal stage of a codebas
 
 I will elaborate on why make is good for that, in [my next post][int-makefile-3].
 
+[wikipedia-make]: https://en.wikipedia.org/wiki/Make_(software)
 [int-makefile-3]: {% post_url 2024-01-25-using-make-the-good %}

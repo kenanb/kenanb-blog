@@ -12,7 +12,7 @@ Notes on Make build automation tool.
 
 [series-makefile]: {% link series.md %}#makefile
 
-I mentioned the things I like about *make* [in my previous post][int-makefile-3]. I pointed out that it fills a certain role nicely, in the larger ecosystem. Now, the bad.
+I mentioned the things I like about [*make*][wikipedia-make] in [my previous post][int-makefile-3]. I pointed out that it fills a certain role nicely, in the larger ecosystem. Now, the bad.
 
 I don't intent to do a comprehensive analysis. People already prefer modern meta-build solutions over make due to reasons fairly obvious. I pointed out that it doesn't scale well. I will just elaborate on why that is.
 
@@ -24,8 +24,10 @@ There are *tricks* to achieve most things you need. However, there is no proper 
 
 If the makefile started pushing you to apply "creative" solutions you are not sure you understand well, it might be a good time to consider a higher-level build system instead.
 
-I will conclude this topic mentioning the ugly parts in the next post.
+I will conclude this topic mentioning [the ugly parts][int-makefile-5] in the next post.
 
 Thanks for reading.
 
+[wikipedia-make]: https://en.wikipedia.org/wiki/Make_(software)
 [int-makefile-3]: {% post_url 2024-01-25-using-make-the-good %}
+[int-makefile-5]: {% post_url 2024-01-27-using-make-the-ugly %}
