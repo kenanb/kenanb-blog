@@ -24,9 +24,8 @@ There are *tricks* to achieve most things you need. However, there is no proper 
 
 If the makefile started pushing you to apply "creative" solutions you are not sure you understand well, it might be a good time to consider a higher-level build system instead.
 
-I will conclude this topic mentioning [the ugly parts][int-makefile-5] in the next post.
+I will conclude this topic mentioning the ugly parts in the next post.
 
 Thanks for reading.
 
 [int-makefile-3]: {% post_url 2024-01-25-using-make-the-good %}
-[int-makefile-5]: {% post_url 2024-01-27-using-make-the-ugly %}
