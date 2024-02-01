@@ -12,13 +12,13 @@ I will be describing a neat emacs feature.
 
 [Emacs][wikipedia-emacs] presents content like a tiling window manager.
 
-I am not too familiar with VSCode. I assume majority of the benefits of a tiling editor is somehow made available in VCCode (and other popular editors), as well.
+I am not too familiar with VSCode. I assume majority of the benefits of a tiling editor is somehow made available in VSCode (and other popular editors), as well.
 
-But I will start by describing it, just to have a brief record of emacs terminology that I can refer to later.
+But I will start by describing it, just to have a brief record of emacs terminology that I can refer to later. A more formal description [is available in the manual][emacs-manual-basic-windows].
 
 ## Windows and Buffers
 
-The user can horizontally or vertically split the main region of the graphical application window into smaller regions.
+The user can horizontally or vertically split the main region of the emacs application window into smaller regions.
 
 Emacs terminology is a bit different. Emacs calls each "application window" a "Frame". And each subregion we generate is called a "window".
 
@@ -106,5 +106,6 @@ Thanks for reading! If you find technical errors, please report in the blog's [I
 [gnu-org-emacs]: https://www.gnu.org/software/emacs/
 [wikipedia-emacs]: https://en.wikipedia.org/wiki/Emacs
 [github-vscode-issue]: https://github.com/microsoft/vscode/issues/88118
+[emacs-manual-basic-windows]: https://www.gnu.org/software/emacs/manual/html_node/elisp/Basic-Windows.html
 [emacs-manual-follow-mode]: https://www.gnu.org/software/emacs/manual/html_node/emacs/Follow-Mode.html
 [emacs-manual-minor-mode]: https://www.gnu.org/software/emacs/manual/html_node/emacs/Minor-Modes.html
