@@ -8,6 +8,10 @@ published: true
 
 I will be describing a neat emacs feature.
 
+[ *Check out all posts in "emacs" series [here][series-emacs].* ]
+
+[series-emacs]: {% link series.md %}#emacs
+
 [GNU Emacs][wikipedia-gnu-emacs] is my preferred editor. I learnt to use it in early university years [while trying to learn Common Lisp][int-road-to-lisp]. Over the years, it essentially became a digital exoskeleton for me. GNU Emacs is [available here][gnu-org-emacs].
 
 [Emacs][wikipedia-emacs] presents content like a tiling window manager.

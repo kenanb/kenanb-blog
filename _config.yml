@@ -26,7 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.kenanb.com" # the base hostname & protocol for your site.
 twitter_username: kenanbolukbasi
 github_username:  kenanb
-series: ["c-cpp", "containers", "lisp", "low-level", "makefile"]
+series: ["c-cpp", "containers", "emacs", "lisp", "low-level", "makefile"]
 
 # Build settings
 theme: minima
