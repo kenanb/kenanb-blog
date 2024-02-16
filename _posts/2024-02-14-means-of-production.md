@@ -239,8 +239,8 @@ Thanks for reading! If you find technical errors, please report in the blog's [I
 [openusd-webpage]: https://openusd.org/release/index.html
 [wikipedia-common-lisp]: https://en.wikipedia.org/wiki/Common_Lisp
 
-[09_call.lisp]: https://github.com/kenanb/mopr/blob/main/src/data/test/09_call.lisp
-[09_call.usda]: https://github.com/kenanb/mopr/blob/main/src/data/test/09_call.usda
+[09_call.lisp]: https://github.com/kenanb/mopr/blob/c6bd7ff02fc83501ec5143278b27ba3b30070789/src/data/test/09_call.lisp
+[09_call.usda]: https://github.com/kenanb/mopr/blob/c6bd7ff02fc83501ec5143278b27ba3b30070789/src/data/test/09_call.usda
 [clasp-webpage]: https://clasp-developers.github.io/
 
 [wikipedia-homoiconicity]: https://en.wikipedia.org/wiki/Homoiconicity
